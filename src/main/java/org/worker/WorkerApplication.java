@@ -2,11 +2,11 @@ package org.worker;
 
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
-import org.http.Config;
-import org.http.HttpServer;
-import org.http.ServerConfig;
-import org.http.model.resource.DefaultResource;
-import org.http.model.resource.Resource;
+import org.core.Config;
+import org.core.HttpServer;
+import org.core.ServerConfig;
+import org.core.model.resource.DefaultResource;
+import org.core.model.resource.Resource;
 
 import java.io.IOException;
 import java.util.OptionalInt;

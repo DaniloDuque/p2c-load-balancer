@@ -3,12 +3,12 @@ package org.worker.core;
 import lombok.Builder;
 import lombok.NonNull;
 import lombok.val;
-import org.http.StatusCode;
-import org.http.model.error.ErrorBuilder;
-import org.http.model.request.Request;
-import org.http.model.response.Response;
-import org.http.model.response.ResponseBuilder;
-import org.http.model.response.ResponseUtils;
+import org.core.StatusCode;
+import org.core.model.error.ErrorBuilder;
+import org.core.model.request.Request;
+import org.core.model.response.Response;
+import org.core.model.response.ResponseBuilder;
+import org.core.model.response.ResponseUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Map;
