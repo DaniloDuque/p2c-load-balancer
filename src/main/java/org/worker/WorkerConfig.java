@@ -3,6 +3,9 @@ package org.worker;
 import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import org.core.Config;
+import org.core.client.Client;
+import org.core.client.DefaultClient;
+import org.core.client.HostMetadata;
 import org.core.handler.ActiveRequestMetricHandler;
 import org.core.metric.MetricManager;
 import org.core.model.error.DefaultErrorBuilder;
@@ -31,6 +34,8 @@ public final class WorkerConfig implements Config {
     private static final String DATE_FORMAT = "EEE, dd MMM yyyy HH:mm:ss 'GMT'";
     private static final Locale LOCALE_FORMAT = Locale.ENGLISH;
     private static final String TIME_ZONE = "GMT";
+    private static final String LB_HOST = "http://localhost";
+    private static final Integer LB_PORT = 8080;
 
     private final Resource errorsDirectory;
     private RequestProcessor requestProcessor;
@@ -39,6 +44,8 @@ public final class WorkerConfig implements Config {
     private Solver problemSolver;
     private ErrorBuilder errorBuilder;
     private MetricManager metricManager;
+    private Client client;
+    private HostMetadata lbHostMetadata;
 
     private static SimpleDateFormat simpleDateFormat() {
         final SimpleDateFormat httpDateFormat = new SimpleDateFormat(
@@ -62,10 +69,27 @@ public final class WorkerConfig implements Config {
 
     private MetricManager metricManager() {
         if (metricManager == null) {
-            metricManager = MetricManager.builder().build();
-            // This needs full implementation
+            metricManager = MetricManager.builder()
+                    .client(client())
+                    .build();
         }
          return metricManager;
+    }
+
+    private Client client() {
+        if (client == null) {
+            client = DefaultClient.builder()
+                    .hostMetadata(lbHostMetadata())
+                    .build();
+        }
+        return client;
+    }
+
+    private HostMetadata lbHostMetadata() {
+        if (lbHostMetadata == null) {
+            lbHostMetadata = new HostMetadata(LB_HOST, LB_PORT);
+        }
+        return lbHostMetadata;
     }
 
     private RequestProcessor requestProcessor() {
