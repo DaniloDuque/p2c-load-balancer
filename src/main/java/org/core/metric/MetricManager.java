@@ -1,7 +1,7 @@
 package org.core.metric;
 
+import lombok.Builder;
 import lombok.NonNull;
-import lombok.RequiredArgsConstructor;
 import org.core.client.Client;
 
 import java.util.Optional;
@@ -10,7 +10,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ScheduledExecutorService;
 
-@RequiredArgsConstructor
+@Builder
 public final class MetricManager {
     private final Client client;
     private final ConcurrentMap<MetricName, Metric<?>> metrics =

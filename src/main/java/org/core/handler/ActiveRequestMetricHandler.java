@@ -3,6 +3,7 @@ package org.core.handler;
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
@@ -20,7 +21,10 @@ import java.util.Optional;
 
 @Log4j2
 @AllArgsConstructor
+@Builder
 public final class ActiveRequestMetricHandler implements HttpHandler {
+    private final MetricName handlerMetric = MetricName.ACTIVE_REQUESTS;
+
     @NonNull
     private final InputParser parser;
 
@@ -34,13 +38,13 @@ public final class ActiveRequestMetricHandler implements HttpHandler {
     public void handle(
             @NonNull final HttpExchange exchange) throws IOException {
         log.info("Received request: {}", exchange.getRequestMethod());
-        Optional<UpdatableMetric<Integer>> throughputMetric =
-                metricManager.getMetric(MetricName.ACTIVE_REQUESTS);
-        throughputMetric.ifPresent(metric -> metric.update(1));
+        Optional<UpdatableMetric<Integer>> activeRequestsMetric =
+                metricManager.getMetric(handlerMetric);
+        activeRequestsMetric.ifPresent(metric -> metric.update(1));
         val parsedRequest = parser.parse(exchange);
         val response = requestProcessor.process(parsedRequest);
         sendResponse(exchange, response);
-        throughputMetric.ifPresent(metric -> metric.update(-1));
+        activeRequestsMetric.ifPresent(metric -> metric.update(-1));
     }
 
     private void sendResponse(

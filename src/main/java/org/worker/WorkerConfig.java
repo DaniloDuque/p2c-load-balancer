@@ -3,7 +3,8 @@ package org.worker;
 import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import org.core.Config;
-import org.core.handler.GenericHandler;
+import org.core.handler.ActiveRequestMetricHandler;
+import org.core.metric.MetricManager;
 import org.core.model.error.DefaultErrorBuilder;
 import org.core.model.error.ErrorBuilder;
 import org.core.model.request.Method;
@@ -37,6 +38,7 @@ public final class WorkerConfig implements Config {
     private InputParser inputParser;
     private Solver problemSolver;
     private ErrorBuilder errorBuilder;
+    private MetricManager metricManager;
 
     private static SimpleDateFormat simpleDateFormat() {
         final SimpleDateFormat httpDateFormat = new SimpleDateFormat(
@@ -50,8 +52,20 @@ public final class WorkerConfig implements Config {
     public Map<String, HttpHandler> getServerHandlers() {
         Map<String, HttpHandler> handlers = new HashMap<>();
         handlers.put(NQUEEN_SOLVER_PATH,
-                new GenericHandler(inputParser(), requestProcessor()));
+                ActiveRequestMetricHandler.builder()
+                        .parser(inputParser())
+                        .requestProcessor(requestProcessor())
+                        .metricManager(metricManager())
+                        .build());
         return handlers;
+    }
+
+    private MetricManager metricManager() {
+        if (metricManager == null) {
+            metricManager = MetricManager.builder().build();
+            // This needs full implementation
+        }
+         return metricManager;
     }
 
     private RequestProcessor requestProcessor() {
