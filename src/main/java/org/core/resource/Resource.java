@@ -1,4 +1,4 @@
-package org.core.model.resource;
+package org.core.resource;
 
 import java.io.IOException;
 import java.io.InputStream;

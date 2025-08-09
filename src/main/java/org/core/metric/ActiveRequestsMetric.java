@@ -11,6 +11,7 @@ public final class ActiveRequestsMetric implements UpdatableMetric<Integer> {
 
     @Override
     public void update(@NonNull final Integer value) {
+        activeCount.addAndGet(value);
     }
 
     @Override
@@ -25,7 +26,7 @@ public final class ActiveRequestsMetric implements UpdatableMetric<Integer> {
 
     @Override
     public String toString() {
-        return String.format("{%s,%d}",
+        return String.format("[%s,%d]",
                 MetricName.ACTIVE_REQUESTS,
                 activeCount.get()
         );

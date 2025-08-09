@@ -10,8 +10,8 @@ import lombok.val;
 import org.core.metric.MetricManager;
 import org.core.metric.MetricName;
 import org.core.metric.UpdatableMetric;
-import org.core.model.request.Method;
-import org.core.model.response.Response;
+import org.model.request.Method;
+import org.model.response.Response;
 import org.core.parser.InputParser;
 import org.core.processor.RequestProcessor;
 

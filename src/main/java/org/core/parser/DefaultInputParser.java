@@ -4,8 +4,8 @@ import com.sun.net.httpserver.HttpExchange;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
-import org.core.model.request.Method;
-import org.core.model.request.Request;
+import org.model.request.Method;
+import org.model.request.Request;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
-import org.core.client.MetricClient;
+import org.worker.client.MetricClient;
 
 import javax.annotation.PostConstruct;
 import java.util.Collection;

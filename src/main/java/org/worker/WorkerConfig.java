@@ -4,19 +4,19 @@ import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import lombok.NonNull;
 import org.core.Config;
-import org.core.client.MetricClient;
-import org.core.client.DefaultMetricClient;
-import org.core.client.HostMetadata;
+import org.worker.client.MetricClient;
+import org.worker.client.DefaultMetricClient;
+import org.core.HostMetadata;
 import org.core.handler.ActiveRequestMetricHandler;
 import org.core.metric.ActiveRequestsMetric;
 import org.core.metric.Metric;
 import org.core.metric.MetricManager;
 import org.core.metric.MetricName;
-import org.core.model.error.DefaultErrorBuilder;
-import org.core.model.error.ErrorBuilder;
-import org.core.model.request.Method;
-import org.core.model.resource.Resource;
-import org.core.model.response.ResponseBuilder;
+import org.model.error.DefaultErrorBuilder;
+import org.model.error.ErrorBuilder;
+import org.model.request.Method;
+import org.core.resource.Resource;
+import org.model.response.ResponseBuilder;
 import org.core.parser.DefaultInputParser;
 import org.core.parser.InputParser;
 import org.core.processor.DefaultRequestProcessor;
@@ -25,6 +25,7 @@ import org.worker.core.NQueenResponse;
 import org.worker.core.Solver;
 import org.worker.core.genetic.GeneticNQueenSolver;
 
+import java.net.http.HttpClient;
 import java.text.SimpleDateFormat;
 import java.util.Locale;
 import java.util.Map;
@@ -41,7 +42,7 @@ public final class WorkerConfig implements Config {
     private static final String DATE_FORMAT = "EEE, dd MMM yyyy HH:mm:ss 'GMT'";
     private static final Locale LOCALE_FORMAT = Locale.ENGLISH;
     private static final String TIME_ZONE = "GMT";
-    private static final String LB_HOST = "http://localhost";
+    private static final String LB_HOST = "localhost";
     private static final Integer LB_PORT = 8080;
     private static final Integer METRIC_MANAGER_INITIAL_DELAY = 5;
     private static final Integer METRIC_MANAGER_DELAY = 2;
@@ -110,6 +111,7 @@ public final class WorkerConfig implements Config {
     private MetricClient metricClient() {
         if (metricClient == null) {
             metricClient = DefaultMetricClient.builder()
+                    .client(HttpClient.newHttpClient())
                     .hostMetadata(lbHostMetadata())
                     .build();
         }

@@ -6,8 +6,8 @@ import lombok.AllArgsConstructor;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
-import org.core.model.request.Method;
-import org.core.model.response.Response;
+import org.model.request.Method;
+import org.model.response.Response;
 import org.core.parser.InputParser;
 import org.core.processor.RequestProcessor;
 

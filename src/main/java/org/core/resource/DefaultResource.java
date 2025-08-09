@@ -1,4 +1,4 @@
-package org.core.model.resource;
+package org.core.resource;
 
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;

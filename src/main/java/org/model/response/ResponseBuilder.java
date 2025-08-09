@@ -1,6 +1,6 @@
-package org.core.model.response;
+package org.model.response;
 
-import org.core.model.request.Request;
+import org.model.request.Request;
 
 public interface ResponseBuilder {
     Response from(Request request);

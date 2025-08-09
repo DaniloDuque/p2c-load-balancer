@@ -5,8 +5,8 @@ import lombok.extern.log4j.Log4j2;
 import org.core.Config;
 import org.core.HttpServer;
 import org.core.ServerConfig;
-import org.core.model.resource.DefaultResource;
-import org.core.model.resource.Resource;
+import org.core.resource.DefaultResource;
+import org.core.resource.Resource;
 
 import java.io.IOException;
 import java.util.OptionalInt;

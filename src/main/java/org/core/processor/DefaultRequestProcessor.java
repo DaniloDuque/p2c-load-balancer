@@ -3,11 +3,11 @@ package org.core.processor;
 import lombok.Builder;
 import lombok.NonNull;
 import org.core.StatusCode;
-import org.core.model.error.ErrorBuilder;
-import org.core.model.request.Method;
-import org.core.model.request.Request;
-import org.core.model.response.Response;
-import org.core.model.response.ResponseBuilder;
+import org.model.error.ErrorBuilder;
+import org.model.request.Method;
+import org.model.request.Request;
+import org.model.response.Response;
+import org.model.response.ResponseBuilder;
 
 import java.util.Map;
 

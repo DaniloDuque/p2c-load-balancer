@@ -1,4 +1,4 @@
-package org.core.model.response;
+package org.model.response;
 
 import org.core.StatusCode;
 

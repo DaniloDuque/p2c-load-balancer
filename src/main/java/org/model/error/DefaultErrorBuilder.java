@@ -1,13 +1,13 @@
-package org.core.model.error;
+package org.model.error;
 
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
 import org.core.StatusCode;
-import org.core.model.request.Request;
-import org.core.model.resource.DefaultResource;
-import org.core.model.resource.Resource;
-import org.core.model.response.Response;
+import org.model.request.Request;
+import org.core.resource.DefaultResource;
+import org.core.resource.Resource;
+import org.model.response.Response;
 
 import java.io.InputStream;
 import java.text.SimpleDateFormat;
