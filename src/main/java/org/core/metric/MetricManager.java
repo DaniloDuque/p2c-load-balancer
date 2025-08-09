@@ -55,6 +55,18 @@ public final class MetricManager {
         );
     }
 
+    private Collection<Metric<?>> collectMetrics() {
+        val result = new ArrayList<Metric<?>>();
+        result.addAll(metrics.values());
+        result.addAll(updatableMetrics.values());
+        return result;
+    }
+
+    private void collectAndSendMetrics() {
+        val metricValues = collectMetrics();
+        client.send(metricValues);
+    }
+
     public static final class MetricManagerBuilder {
         public MetricManager build() {
             MetricManager manager = new MetricManager(
@@ -67,18 +79,6 @@ public final class MetricManager {
             manager.start();
             return manager;
         }
-    }
-
-    private Collection<Metric<?>> collectMetrics() {
-        val result = new ArrayList<Metric<?>>();
-        result.addAll(metrics.values());
-        result.addAll(updatableMetrics.values());
-        return result;
-    }
-
-    private void collectAndSendMetrics() {
-        val metricValues = collectMetrics();
-        client.send(metricValues);
     }
 
 }

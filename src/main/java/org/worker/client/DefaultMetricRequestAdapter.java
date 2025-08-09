@@ -1,5 +1,6 @@
 package org.worker.client;
 
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.val;
 import org.core.HostMetadata;
@@ -10,6 +11,7 @@ import java.net.http.HttpRequest;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
+@NoArgsConstructor
 public final class DefaultMetricRequestAdapter implements MetricRequestAdapter {
     private static final String METRIC_PATH = "metrics";
     private static final String CONTENT_TYPE_NAME = "Content-Type";

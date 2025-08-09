@@ -4,6 +4,7 @@ import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import lombok.NonNull;
 import org.core.Config;
+import org.worker.client.DefaultMetricRequestAdapter;
 import org.worker.client.MetricClient;
 import org.worker.client.DefaultMetricClient;
 import org.core.HostMetadata;
@@ -111,6 +112,7 @@ public final class WorkerConfig implements Config {
     private MetricClient metricClient() {
         if (metricClient == null) {
             metricClient = DefaultMetricClient.builder()
+                    .adapter(new DefaultMetricRequestAdapter())
                     .client(HttpClient.newHttpClient())
                     .hostMetadata(lbHostMetadata())
                     .build();
