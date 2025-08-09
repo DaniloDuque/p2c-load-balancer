@@ -2,12 +2,16 @@ package org.worker;
 
 import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
+import lombok.NonNull;
 import org.core.Config;
 import org.core.client.Client;
 import org.core.client.DefaultClient;
 import org.core.client.HostMetadata;
 import org.core.handler.ActiveRequestMetricHandler;
+import org.core.metric.ActiveRequestsMetric;
+import org.core.metric.Metric;
 import org.core.metric.MetricManager;
+import org.core.metric.MetricName;
 import org.core.model.error.DefaultErrorBuilder;
 import org.core.model.error.ErrorBuilder;
 import org.core.model.request.Method;
@@ -22,10 +26,13 @@ import org.worker.core.Solver;
 import org.worker.core.genetic.GeneticNQueenSolver;
 
 import java.text.SimpleDateFormat;
-import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
+import java.util.HashMap;
 import java.util.TimeZone;
+import java.util.concurrent.Executors;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
 @Builder
 public final class WorkerConfig implements Config {
@@ -36,6 +43,11 @@ public final class WorkerConfig implements Config {
     private static final String TIME_ZONE = "GMT";
     private static final String LB_HOST = "http://localhost";
     private static final Integer LB_PORT = 8080;
+    private static final Integer METRIC_MANAGER_INITIAL_DELAY = 5;
+    private static final Integer METRIC_MANAGER_DELAY = 2;
+    private static final TimeUnit METRIC_MANAGER_TIME_UNIT = TimeUnit.SECONDS;
+    private static final ScheduledExecutorService METRIC_EXECUTOR_SERVICE =
+            Executors.newScheduledThreadPool(1);
 
     private final Resource errorsDirectory;
     private RequestProcessor requestProcessor;
@@ -46,6 +58,7 @@ public final class WorkerConfig implements Config {
     private MetricManager metricManager;
     private Client client;
     private HostMetadata lbHostMetadata;
+    private Map<MetricName, Metric<?>> metrics;
 
     private static SimpleDateFormat simpleDateFormat() {
         final SimpleDateFormat httpDateFormat = new SimpleDateFormat(
@@ -71,9 +84,27 @@ public final class WorkerConfig implements Config {
         if (metricManager == null) {
             metricManager = MetricManager.builder()
                     .client(client())
+                    .timeUnit(METRIC_MANAGER_TIME_UNIT)
+                    .initialDelay(METRIC_MANAGER_INITIAL_DELAY)
+                    .delay(METRIC_MANAGER_DELAY)
+                    .scheduler(METRIC_EXECUTOR_SERVICE)
                     .build();
+            registerMetrics(metricManager);
         }
-         return metricManager;
+        return metricManager;
+    }
+
+    private void registerMetrics(@NonNull final MetricManager metricManager) {
+        metrics().forEach(metricManager::register);
+    }
+
+    private Map<MetricName, Metric<?>> metrics() {
+        if (metrics == null) {
+            metrics = Map.of(
+                    MetricName.ACTIVE_REQUESTS, new ActiveRequestsMetric()
+            );
+        }
+        return metrics;
     }
 
     private Client client() {

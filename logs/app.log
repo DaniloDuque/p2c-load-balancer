@@ -1,0 +1,36 @@
+2025-08-08 21:48:03.690 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-08 21:48:46.653 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-08 21:48:54.891 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-08 21:50:41.444 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-08 21:50:44.861 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-08 21:51:15.898 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-08 21:51:24.188 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-08 21:52:14.846 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-08 21:52:22.946 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-08 21:52:27.950 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:29.957 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:31.963 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:33.967 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:35.973 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:37.979 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:39.985 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:41.990 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:43.996 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:52:45.415 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-08 21:54:20.878 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-08 21:54:25.881 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:27.888 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:29.892 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:31.897 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:33.903 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:35.909 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:37.915 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:39.920 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:41.924 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 21:54:42.615 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-08 22:08:41.299 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-08 22:08:46.302 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 22:08:48.309 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 22:08:50.316 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 22:08:52.322 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
+2025-08-08 22:08:54.201 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...

@@ -2,16 +2,23 @@ package org.core.metric;
 
 import lombok.Builder;
 import lombok.NonNull;
+import lombok.extern.log4j.Log4j2;
 import org.core.client.Client;
 
+import javax.annotation.PostConstruct;
 import java.util.Optional;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.TimeUnit;
 
+@Log4j2
 @Builder
 public final class MetricManager {
+    private final TimeUnit timeUnit;
+    private final Integer initialDelay;
+    private final Integer delay;
     private final Client client;
     private final ConcurrentMap<MetricName, Metric<?>> metrics =
             new ConcurrentHashMap<>();
@@ -35,6 +42,28 @@ public final class MetricManager {
         return Optional.ofNullable(
                 (UpdatableMetric<T>) updatableMetrics.get(name)
         );
+    }
+
+    @PostConstruct
+    public void start() {
+        scheduler.scheduleWithFixedDelay(
+                this::collectAndSendMetrics,
+                initialDelay, delay, timeUnit
+        );
+    }
+
+    public static final class MetricManagerBuilder {
+        public MetricManager build() {
+            MetricManager manager = new MetricManager(
+                    timeUnit, initialDelay, delay, client, scheduler
+            );
+            manager.start();
+            return manager;
+        }
+    }
+
+    private void collectAndSendMetrics() {
+        log.info("Hi from metric manager");
     }
 
 }

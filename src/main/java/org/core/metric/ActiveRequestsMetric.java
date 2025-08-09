@@ -1,9 +1,11 @@
 package org.core.metric;
 
+import lombok.NoArgsConstructor;
 import lombok.NonNull;
 
 import java.util.concurrent.atomic.AtomicLong;
 
+@NoArgsConstructor
 public final class ActiveRequestsMetric implements UpdatableMetric<Integer> {
     private final AtomicLong activeCount = new AtomicLong(0);
 
