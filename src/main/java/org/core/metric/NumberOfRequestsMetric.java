@@ -6,7 +6,7 @@ import lombok.NonNull;
 import java.util.concurrent.atomic.AtomicLong;
 
 @NoArgsConstructor
-public final class ActiveRequestsMetric implements UpdatableMetric<Integer> {
+public final class NumberOfRequestsMetric implements UpdatableMetric<Integer> {
     private final AtomicLong activeCount = new AtomicLong(0);
 
     @Override
@@ -20,14 +20,9 @@ public final class ActiveRequestsMetric implements UpdatableMetric<Integer> {
     }
 
     @Override
-    public void reset() {
-        activeCount.set(0);
-    }
-
-    @Override
     public String toString() {
         return String.format("[%s,%d]",
-                MetricName.ACTIVE_REQUESTS,
+                MetricName.NUMBER_OF_REQUESTS,
                 activeCount.get()
         );
     }

@@ -50,6 +50,7 @@ public final class WorkerApplication {
 
             HttpServer server = HttpServer.builder()
                     .config(serverConfig)
+                    .filters(config.getServerFilters())
                     .handlers(config.getServerHandlers())
                     .build();
 

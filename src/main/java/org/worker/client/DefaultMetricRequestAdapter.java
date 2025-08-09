@@ -2,6 +2,7 @@ package org.worker.client;
 
 import lombok.NoArgsConstructor;
 import lombok.NonNull;
+import lombok.extern.log4j.Log4j2;
 import lombok.val;
 import org.core.HostMetadata;
 import org.core.metric.Metric;
@@ -11,6 +12,7 @@ import java.net.http.HttpRequest;
 import java.util.Collection;
 import java.util.stream.Collectors;
 
+@Log4j2
 @NoArgsConstructor
 public final class DefaultMetricRequestAdapter implements MetricRequestAdapter {
     private static final String METRIC_PATH = "metrics";
@@ -36,6 +38,7 @@ public final class DefaultMetricRequestAdapter implements MetricRequestAdapter {
                         METRIC_PATH
                 )
         );
+        log.info(serializeMetrics(metrics));
         return HttpRequest.newBuilder()
                 .uri(uri)
                 .POST(HttpRequest.BodyPublishers.ofString(

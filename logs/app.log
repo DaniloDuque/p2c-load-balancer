@@ -34,3 +34,1170 @@
 2025-08-08 22:08:50.316 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
 2025-08-08 22:08:52.322 [pool-2-thread-1] INFO org.core.metric.MetricManager - Hi from metric manager
 2025-08-08 22:08:54.201 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:17:06.116 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:17:49.074 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:17:57.409 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:18:02.413 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:04.439 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:06.451 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:08.459 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:10.466 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:12.472 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:14.474 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:16.482 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:18.486 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:20.488 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:22.493 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:24.497 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:26.500 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:28.508 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:30.514 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:32.522 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:34.531 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:36.537 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:38.544 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:40.549 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:42.556 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:44.562 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:46.570 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:48.581 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:50.584 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:52.591 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:54.598 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:56.602 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:18:58.607 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:00.612 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:02.621 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:04.628 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:06.633 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:08.639 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:10.662 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:12.671 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:14.684 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:16.691 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:18.697 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:20.704 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:22.709 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:24.712 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:26.718 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:28.720 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:30.729 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:32.736 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:34.744 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:36.749 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:38.752 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:40.758 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:42.763 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:44.769 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:46.775 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:48.781 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:50.784 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:52.791 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:54.803 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:56.809 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:19:58.824 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:20:00.833 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:20:02.861 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:20:04.868 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:20:06.873 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:20:08.878 [pool-2-thread-1] INFO org.core.metric.MetricManager - Collecting metrics...
+2025-08-09 12:20:10.428 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:20:54.051 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:21:07.827 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:21:18.164 [pool-3-thread-3] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:21:23.861 [pool-3-thread-5] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:21:33.220 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:22:41.008 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:22:54.777 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:23:42.188 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:23:47.193 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:23:49.207 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:23:51.214 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:23:53.219 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:23:55.223 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:23:57.231 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:23:59.235 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:24:01.241 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:24:03.249 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:24:05.255 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - http://localhost:8080/metrics POST
+2025-08-09 12:24:06.216 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:24:13.873 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:24:18.884 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - Optional[jdk.internal.net.http.RequestPublishers$StringPublisher@74ee03c8]
+2025-08-09 12:24:20.905 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - Optional[jdk.internal.net.http.RequestPublishers$StringPublisher@7727c396]
+2025-08-09 12:24:22.912 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - Optional[jdk.internal.net.http.RequestPublishers$StringPublisher@405016e]
+2025-08-09 12:24:24.918 [pool-2-thread-1] INFO org.worker.client.DefaultMetricClient - Optional[jdk.internal.net.http.RequestPublishers$StringPublisher@2413323c]
+2025-08-09 12:24:26.029 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:25:54.285 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:25:59.291 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:01.311 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:03.319 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:05.323 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:07.330 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:09.338 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:11.345 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:13.350 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:15.356 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:17.369 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:17.585 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:26:18.415 [pool-3-thread-4] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:26:19.372 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:21.378 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:22.837 [pool-3-thread-6] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:26:23.383 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:25.389 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:26.960 [pool-3-thread-7] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:26:27.395 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:29.400 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:31.402 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:33.406 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:35.411 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:37.418 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:39.424 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:41.429 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:43.435 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:45.441 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:47.446 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:49.454 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:26:49.607 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:27:34.124 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:27:39.131 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:40.456 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:27:41.153 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:43.159 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:45.166 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:46.711 [pool-3-thread-4] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:27:47.173 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:48.606 [pool-3-thread-6] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:27:49.180 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:51.187 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:53.193 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:55.200 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:57.202 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:27:59.210 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:01.214 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:03.219 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:05.224 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:07.234 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:09.242 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:11.250 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:13.256 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:15.262 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:17.270 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:19.289 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:21.306 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:21.532 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:28:29.376 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:28:34.235 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:28:34.374 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:36.385 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:38.390 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:40.396 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:42.402 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:44.407 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:46.413 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:48.414 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:50.419 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:52.421 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:54.426 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:56.427 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:28:58.433 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:00.437 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:02.443 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:04.444 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:06.449 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:08.455 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:10.460 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:12.466 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:14.469 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:16.477 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:18.484 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:20.491 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:22.499 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:24.503 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:26.510 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:28.516 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:30.523 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:32.529 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:34.535 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:36.538 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:38.542 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:40.548 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:42.554 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:44.560 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:46.566 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:48.572 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:29:48.941 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:33:06.739 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:33:11.746 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:33:13.767 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:33:15.774 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:33:16.945 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:33:17.778 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:19.783 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:21.789 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:23.794 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:25.800 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:27.805 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:29.811 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:31.816 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:33.821 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:35.826 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:37.831 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:39.836 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:41.842 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:43.847 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:45.851 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:47.856 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:49.862 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:51.867 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:53.873 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:55.878 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:57.884 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:33:59.894 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:01.900 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:03.905 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:05.911 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:07.917 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:09.919 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:11.921 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:13.926 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:15.936 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:17.938 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:19.940 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:21.946 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:23.951 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:25.956 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:27.962 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:29.968 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:31.973 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:33.487 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:34:41.682 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:34:46.684 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:34:48.701 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:34:50.721 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:34:51.013 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:34:52.727 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:54.733 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:56.746 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:34:58.752 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:35:00.753 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:35:02.758 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:35:04.765 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:35:05.547 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:36:15.296 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:36:20.303 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:36:21.840 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:36:22.326 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:24.332 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:26.337 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:28.343 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:30.349 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:32.354 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:34.360 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:36.365 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:38.371 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:40.198 [pool-3-thread-4] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:36:40.372 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,2]
+2025-08-09 12:36:42.378 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:44.383 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:46.404 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:48.410 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:50.415 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:52.419 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:54.425 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:56.431 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:36:58.436 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:00.440 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:02.446 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:04.451 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:06.457 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:08.463 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:10.468 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:12.472 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:14.478 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:16.487 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:16.782 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:37:26.166 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:37:31.173 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:37:32.901 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:37:33.189 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:35.195 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:37.197 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:39.201 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:41.203 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:43.209 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:37:44.355 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:38:19.117 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:38:24.017 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:38:24.119 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:26.130 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:28.134 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:30.140 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:32.141 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:34.147 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:36.154 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:38.158 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:40.164 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:42.172 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:44.177 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:46.180 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:48.184 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:50.186 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:52.189 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:54.195 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:56.200 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:38:58.206 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:00.207 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:02.212 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:04.218 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:06.224 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:08.226 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:10.231 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:12.240 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:14.245 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:16.251 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:18.255 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:20.261 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:22.265 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:24.273 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:26.281 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:28.289 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:30.295 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:32.301 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:34.306 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:36.311 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:38.315 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:39:39.411 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:41:03.588 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:41:07.830 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:41:08.590 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:41:10.602 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:41:12.608 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:41:14.613 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:41:16.619 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:41:16.881 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:42:18.908 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:42:23.915 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:42:25.944 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:42:27.951 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:42:29.959 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 12:42:30.902 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:42:31.964 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:33.967 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:35.972 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:37.974 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:39.979 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:41.994 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:44.002 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:46.004 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:48.010 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:50.015 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:42:50.757 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:43:13.783 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:43:16.787 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:43:18.772 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:43:20.785 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:43:22.791 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:43:24.796 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:43:26.802 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:43:27.977 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:43:56.588 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:43:57.783 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:44:01.591 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:03.604 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:05.610 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:07.616 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:09.622 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:11.628 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:13.637 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:15.645 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:15.901 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:44:24.758 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:44:26.235 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:44:29.760 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:31.772 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:33.778 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:35.784 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:37.790 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:39.794 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:41.799 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:43.806 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:45.814 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:47.820 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:49.826 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:51.832 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:53.836 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:55.843 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:57.854 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:44:59.860 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:01.863 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:03.870 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:05.879 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:07.883 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:09.911 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:11.918 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:13.919 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:15.925 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:17.925 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:19.940 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:21.944 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:23.949 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:25.954 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:26.971 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 12:45:35.443 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 12:45:39.741 [pool-3-thread-2] INFO org.core.handler.ActiveRequestMetricHandler - Received request: GET
+2025-08-09 12:45:40.438 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:42.450 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:44.454 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:46.458 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:48.463 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:50.468 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:52.471 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:54.476 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:56.481 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:45:58.485 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:00.490 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:02.495 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:04.500 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:06.506 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:08.516 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:10.521 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:12.523 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:14.529 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:16.534 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:18.537 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:20.542 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:22.546 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:24.551 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:26.553 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:28.558 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:30.561 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:32.564 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:34.569 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:36.575 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:38.578 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:40.584 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:42.589 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:44.591 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:46.596 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:48.602 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:50.605 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:52.610 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:54.616 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:56.622 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:46:58.625 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:00.631 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:02.636 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:04.642 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:06.648 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:08.652 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:10.657 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:12.663 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:14.668 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:16.673 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:18.679 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:20.682 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:22.687 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:24.693 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:26.697 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:28.702 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:30.708 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:32.713 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:34.718 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:36.724 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:38.729 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:40.733 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:42.738 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 12:47:44.228 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:10:29.506 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:10:29.515 [main] ERROR org.worker.WorkerApplication - Failed to start server: Cannot invoke "java.util.Map.get(Object)" because "this.filters" is null
+java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" because "this.filters" is null
+	at org.core.HttpServer.start(HttpServer.java:50) ~[main/:?]
+	at org.worker.WorkerApplication.main(WorkerApplication.java:57) [main/:?]
+2025-08-09 13:10:29.519 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:10:58.624 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:11:03.624 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:11:05.641 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:11:07.649 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:11:08.484 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:11:09.658 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:11.664 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:13.666 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:15.672 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:17.677 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:19.683 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:21.689 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:23.694 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:11:25.467 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:12:45.127 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:12:45.134 [main] INFO org.core.HttpServer - Adding 1 filters to context /solver/queen
+2025-08-09 13:12:50.126 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:12:52.151 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:12:54.159 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:12:56.162 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:12:58.168 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:12:59.737 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:16:20.698 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:16:25.700 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:16:27.720 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:16:29.726 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:16:31.731 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:16:33.738 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:16:35.743 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:16:36.615 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:16:37.750 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:16:39.752 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:16:41.758 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:16:43.764 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:16:45.769 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:16:47.775 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:16:48.704 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:20:42.752 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:20:47.753 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:20:49.775 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:20:51.779 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:20:52.120 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:20:53.786 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:20:55.791 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:20:57.797 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:20:59.800 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:01.806 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:03.812 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:05.818 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:21:07.821 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:21:09.828 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:21:10.281 [pool-3-thread-3] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:21:11.834 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:13.840 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:15.846 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:17.851 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:19.855 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:21.864 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:23.874 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:25.880 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:27.882 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:29.884 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:31.890 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:33.895 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:35.898 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:37.902 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:39.907 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:41.907 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:43.909 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:45.912 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:47.915 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:49.917 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:51.920 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:53.925 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:55.927 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:57.933 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:21:59.938 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:01.944 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:03.949 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:05.955 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:07.959 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:09.966 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:11.976 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:13.982 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:15.987 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:17.991 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:19.996 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:22.002 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:24.005 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:26.011 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:28.016 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:30.022 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:32.028 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:34.034 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:36.035 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:38.040 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:40.053 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:42.082 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:44.086 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:46.092 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:48.098 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:50.101 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:52.104 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:54.110 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:56.116 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:22:58.121 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:00.128 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:02.135 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:04.141 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:06.147 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:08.149 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:10.154 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:11.759 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:23:20.785 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:23:25.783 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:23:26.804 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:23:27.799 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:23:29.804 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:23:31.810 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:23:33.203 [pool-3-thread-3] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:23:33.815 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:35.821 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:37.826 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:39.832 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:41.838 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:43.839 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:45.844 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:47.850 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:49.855 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:51.861 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:53.862 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:55.868 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:57.873 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:23:59.879 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:01.880 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:03.884 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:05.890 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:07.895 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:09.898 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:11.900 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:13.906 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:15.911 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:17.917 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:19.922 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:21.927 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:23.930 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:25.934 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:27.940 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:29.946 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:31.952 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:33.958 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:35.959 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:37.965 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:39.970 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:41.974 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:43.980 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:45.980 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:47.984 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:49.990 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:51.995 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:53.999 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:56.002 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:24:58.007 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:00.010 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:02.015 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:04.021 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:06.023 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:08.029 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:10.034 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:12.039 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:14.045 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:16.049 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:18.055 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:20.061 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:22.065 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:24.070 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:26.076 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:28.082 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:30.086 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:32.092 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:34.097 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:36.103 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:38.109 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:40.117 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:42.118 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:44.124 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:46.128 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:48.133 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:50.139 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:52.140 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:54.143 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:56.149 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:25:58.153 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:00.158 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:02.163 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:04.167 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:06.169 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:08.102 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:26:24.161 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:26:29.159 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:26:29.901 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:26:31.171 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:33.177 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:26:35.185 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:26:36.542 [pool-3-thread-3] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:26:37.189 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:39.192 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:41.198 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:43.204 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:45.208 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:47.214 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:49.220 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:51.225 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:53.231 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:55.237 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:26:56.113 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:27:52.203 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:27:57.205 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:27:59.229 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:01.235 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:03.242 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:05.248 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:07.255 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:09.263 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:11.269 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:13.275 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:15.279 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:17.282 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:19.291 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:21.295 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:23.301 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:25.306 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:27.312 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:29.316 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:31.323 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:33.329 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:35.333 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:37.336 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:39.342 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:41.348 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:43.354 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:45.360 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:47.367 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:49.371 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:51.378 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:53.386 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:55.391 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:57.398 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:28:59.403 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:01.412 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:03.419 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:05.424 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:07.427 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:09.431 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:11.437 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:13.441 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:15.448 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:17.455 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:19.461 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:29:21.130 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:29:21.469 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:29:23.471 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:29:25.473 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:29:27.479 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:29:29.481 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:29:31.487 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:29:33.488 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:29:33.918 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:33:37.553 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:33:42.562 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:33:44.594 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:33:46.606 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:33:48.615 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:33:50.620 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:33:52.630 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:33:54.635 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:33:55.504 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:33:56.641 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:33:58.649 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:00.656 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:02.662 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:04.664 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:06.670 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:08.676 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:10.680 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:12.687 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:14.693 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:16.699 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:18.705 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:20.707 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:22.713 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:24.719 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:26.724 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:28.730 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:30.736 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:32.741 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:34.747 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:36.753 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:38.758 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:40.763 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:42.767 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:44.773 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:46.779 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:48.784 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:50.789 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:52.795 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:54.801 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:56.809 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:34:58.856 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:00.868 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:02.876 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:04.887 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:06.897 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:08.903 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:10.911 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:12.920 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:14.925 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:16.931 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:18.936 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:20.942 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:22.948 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:24.952 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:26.958 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:28.963 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:30.969 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:32.975 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:34.980 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:36.981 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:38.986 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:40.992 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:42.997 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:45.000 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:47.005 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:49.007 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:51.007 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:53.013 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:55.017 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:57.019 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:35:59.024 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:01.030 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:03.035 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:05.041 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:07.046 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:09.052 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:11.057 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:13.063 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:15.068 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:17.074 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:19.079 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:21.085 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:23.090 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:25.096 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:27.101 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:29.107 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:31.112 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:33.116 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:35.119 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:37.125 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:39.126 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:41.129 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:43.135 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:45.145 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:47.162 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:49.167 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:51.172 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:53.178 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:55.180 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:57.186 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:36:59.189 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:01.195 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:03.197 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:05.203 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:07.209 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:09.214 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:11.220 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:13.225 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:15.242 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:17.255 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:19.260 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:21.266 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:23.272 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:25.282 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:25.913 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:37:36.441 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:37:41.441 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:37:43.458 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:37:45.466 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:37:47.472 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:37:49.478 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:37:50.226 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:37:51.484 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:53.489 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:55.495 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:57.500 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:37:59.506 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:01.511 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:03.518 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:05.533 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:07.538 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:09.544 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:11.549 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:13.555 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:15.560 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:17.561 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:19.563 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:21.565 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:23.571 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:25.576 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:27.582 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:29.588 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:31.593 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:33.599 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:35.600 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:37.606 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:39.611 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:41.617 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:43.619 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:45.625 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:47.630 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:49.636 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:38:50.908 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:40:27.017 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:40:32.022 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:40:33.867 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:40:34.044 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:36.050 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:38.055 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:40.060 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:42.066 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:44.071 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:46.077 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:48.083 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:50.087 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:52.093 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:54.096 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:40:55.599 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:41:05.652 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:41:10.652 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:41:12.185 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:41:12.663 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:41:14.669 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:41:16.674 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:41:18.679 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:41:20.687 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:41:21.221 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:47:07.307 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:47:12.308 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:47:14.334 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:47:16.343 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:47:18.353 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:47:18.645 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:47:20.355 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:22.361 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:24.365 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:26.370 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:28.374 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:30.375 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:32.376 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:34.382 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:36.393 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:38.401 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:40.406 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:42.409 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:44.414 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:46.420 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:48.425 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:50.431 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:52.437 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:54.442 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:56.447 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:47:58.453 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:00.456 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:02.462 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:04.468 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:06.474 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:08.479 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:10.481 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:12.487 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:14.492 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:16.495 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:18.500 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:20.502 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:22.508 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:24.514 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:26.518 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:28.524 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:30.526 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:32.531 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:34.536 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:36.537 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:38.543 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:40.549 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:42.555 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:44.560 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:46.566 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:48.572 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:50.577 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:52.583 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:54.587 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:56.591 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:48:58.592 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:00.595 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:02.600 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:04.606 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:06.611 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:08.624 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:10.633 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:12.639 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:14.645 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:16.649 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:18.654 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:20.658 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:22.666 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:24.673 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:26.677 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:28.682 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:29.383 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 13:49:38.515 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 13:49:43.516 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:49:45.531 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:49:47.537 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:49:49.543 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:49:51.548 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:49:53.554 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:49:55.556 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 13:49:55.995 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 13:49:57.561 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:49:59.567 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:50:01.571 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:50:03.576 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:50:05.579 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 13:50:06.935 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 17:27:18.017 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-09 17:27:23.013 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:27:25.028 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:27:27.037 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:27:29.043 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:27:31.053 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:27:33.060 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:27:33.205 [pool-3-thread-8] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:27:35.066 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:37.071 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:39.075 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:41.082 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:43.090 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:45.094 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:47.099 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:49.102 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:51.107 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:27:52.368 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 17:30:25.569 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-09 17:30:30.574 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:32.598 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:34.604 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:36.612 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:38.616 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:40.619 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:42.623 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:44.636 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:46.651 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:48.658 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:50.663 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:52.669 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:30:54.474 [pool-3-thread-13] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:30:54.672 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:30:56.676 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:30:58.681 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:00.684 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:02.690 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:04.693 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:06.699 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:08.709 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:10.724 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:12.729 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:14.735 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:16.740 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:18.744 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:31:20.466 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 17:32:45.639 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-09 17:32:50.633 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,0]
+2025-08-09 17:32:52.455 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:32:52.648 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:32:54.652 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:32:56.657 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:32:58.659 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:00.663 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:02.670 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:04.680 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:06.681 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:08.686 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:10.694 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:12.700 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:33:13.337 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 17:34:11.760 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-09 17:34:16.511 [pool-3-thread-1] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:34:16.758 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:18.766 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:20.773 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:22.783 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:24.787 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:26.790 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:28.793 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:30.799 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:32.801 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:34.807 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:36.811 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:38.813 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:40.817 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:42.821 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [ACTIVE_REQUESTS,1]
+2025-08-09 17:34:44.796 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 17:38:19.505 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-09 17:38:24.504 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,0]
+2025-08-09 17:38:26.520 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,0]
+2025-08-09 17:38:28.529 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,0]
+2025-08-09 17:38:28.622 [pool-3-thread-4] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:29.572 [pool-3-thread-6] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:30.410 [pool-3-thread-8] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:30.533 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,3]
+2025-08-09 17:38:31.257 [pool-3-thread-11] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:31.932 [pool-3-thread-13] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:32.231 [pool-3-thread-15] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:32.502 [pool-3-thread-17] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:32.538 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,7]
+2025-08-09 17:38:32.744 [pool-3-thread-20] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:32.990 [pool-3-thread-22] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:33.259 [pool-3-thread-24] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:33.483 [pool-3-thread-1] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:33.743 [pool-3-thread-3] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:33.961 [pool-3-thread-5] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:34.155 [pool-3-thread-7] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:34.365 [pool-3-thread-9] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:34.544 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,15]
+2025-08-09 17:38:34.614 [pool-3-thread-12] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:34.829 [pool-3-thread-14] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:35.043 [pool-3-thread-16] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:35.238 [pool-3-thread-18] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:36.551 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,19]
+2025-08-09 17:38:38.559 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,19]
+2025-08-09 17:38:40.566 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,19]
+2025-08-09 17:38:41.321 [pool-3-thread-23] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:41.845 [pool-3-thread-25] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:42.106 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:42.284 [pool-3-thread-4] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:42.531 [pool-3-thread-6] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:42.570 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,24]
+2025-08-09 17:38:42.752 [pool-3-thread-9] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:42.980 [pool-3-thread-11] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:43.184 [pool-3-thread-13] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:43.397 [pool-3-thread-15] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:43.608 [pool-3-thread-17] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:43.832 [pool-3-thread-19] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:44.042 [pool-3-thread-21] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:44.234 [pool-3-thread-23] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:44.556 [pool-3-thread-25] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:38:44.574 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,33]
+2025-08-09 17:38:46.578 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [NUMBER_OF_REQUESTS,33]
+2025-08-09 17:38:47.845 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 17:43:15.287 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-08-09 17:43:20.291 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.000000],[NUMBER_OF_REQUESTS,0]
+2025-08-09 17:43:22.315 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.093110],[NUMBER_OF_REQUESTS,0]
+2025-08-09 17:43:24.324 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.089319],[NUMBER_OF_REQUESTS,0]
+2025-08-09 17:43:26.331 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.098442],[NUMBER_OF_REQUESTS,0]
+2025-08-09 17:43:28.334 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.217118],[NUMBER_OF_REQUESTS,0]
+2025-08-09 17:43:30.341 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.166354],[NUMBER_OF_REQUESTS,0]
+2025-08-09 17:43:30.759 [pool-3-thread-7] INFO org.core.handler.GenericHandler - Received request: GET
+2025-08-09 17:43:32.345 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.337728],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:34.348 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.284818],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:36.355 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.225343],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:38.363 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.283657],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:40.370 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.367766],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:42.377 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.206746],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:44.386 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.243125],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:46.392 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.258934],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:48.400 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.321250],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:50.409 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.238274],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:52.414 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.229375],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:54.421 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.227017],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:56.433 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.397132],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:43:58.440 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.429107],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:44:00.448 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.269039],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:44:02.454 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.249219],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:44:04.461 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.216250],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:44:06.469 [pool-2-thread-1] INFO org.worker.client.DefaultMetricRequestAdapter - [CPU_UTILIZATION,0.215490],[NUMBER_OF_REQUESTS,1]
+2025-08-09 17:44:08.105 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-08-09 17:44:51.958 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-08-09 17:44:56.255 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...

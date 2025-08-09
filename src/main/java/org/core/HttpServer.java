@@ -1,5 +1,6 @@
 package org.core;
 
+import com.sun.net.httpserver.Filter;
 import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import lombok.NonNull;
@@ -7,6 +8,7 @@ import lombok.extern.log4j.Log4j2;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
+import java.util.Collection;
 import java.util.Map;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -20,6 +22,9 @@ public final class HttpServer {
 
     @NonNull
     private final Map<String, HttpHandler> handlers;
+
+    @NonNull
+    private final Map<String, Collection<Filter>> filters;
 
     private ExecutorService threadPool;
     private com.sun.net.httpserver.HttpServer server;
@@ -40,7 +45,18 @@ public final class HttpServer {
                     new InetSocketAddress(config.getPort()),
                     0
             );
-            handlers.forEach(server::createContext);
+            for (Map.Entry<String, HttpHandler> entry : handlers.entrySet()) {
+                var context = server.createContext(
+                        entry.getKey(),
+                        entry.getValue()
+                );
+
+                Collection<Filter> contextFilters = filters.get(entry.getKey());
+                if (contextFilters != null) {
+                    context.getFilters().addAll(contextFilters);
+                }
+            }
+
             server.setExecutor(threadPool);
             server.start();
         } catch (IOException e) {

@@ -1,18 +1,22 @@
 package org.worker;
 
+import com.sun.net.httpserver.Filter;
 import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import lombok.NonNull;
 import org.core.Config;
+import org.core.handler.GenericHandler;
+import org.core.metric.MetricManager;
+import org.core.metric.MetricName;
+import org.core.metric.UpdatableMetric;
+import org.core.metric.CpuUtilizationMetric;
+import org.core.metric.NumberOfRequestsMetric;
+import org.core.metric.Metric;
 import org.worker.client.DefaultMetricRequestAdapter;
 import org.worker.client.MetricClient;
 import org.worker.client.DefaultMetricClient;
 import org.core.HostMetadata;
-import org.core.handler.ActiveRequestMetricHandler;
-import org.core.metric.ActiveRequestsMetric;
-import org.core.metric.Metric;
-import org.core.metric.MetricManager;
-import org.core.metric.MetricName;
+import org.core.filter.NumberOfRequestsMetricFilter;
 import org.model.error.DefaultErrorBuilder;
 import org.model.error.ErrorBuilder;
 import org.model.request.Method;
@@ -28,10 +32,12 @@ import org.worker.core.genetic.GeneticNQueenSolver;
 
 import java.net.http.HttpClient;
 import java.text.SimpleDateFormat;
-import java.util.Locale;
-import java.util.Map;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
+import java.util.Map;
 import java.util.TimeZone;
+import java.util.Locale;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -71,15 +77,29 @@ public final class WorkerConfig implements Config {
         return httpDateFormat;
     }
 
+    @Override
     public Map<String, HttpHandler> getServerHandlers() {
         Map<String, HttpHandler> handlers = new HashMap<>();
         handlers.put(NQUEEN_SOLVER_PATH,
-                ActiveRequestMetricHandler.builder()
+                GenericHandler.builder()
                         .parser(inputParser())
                         .requestProcessor(requestProcessor())
-                        .metricManager(metricManager())
                         .build());
         return handlers;
+    }
+
+    @Override
+    public Map<String, Collection<Filter>> getServerFilters() {
+        Map<String, Collection<Filter>> filters = new HashMap<>();
+        NumberOfRequestsMetricFilter activeRequestFilter
+                = NumberOfRequestsMetricFilter.builder()
+                .metricManager(metricManager())
+                .build();
+        filters.put(
+                NQUEEN_SOLVER_PATH,
+                Collections.singletonList(activeRequestFilter)
+        );
+        return filters;
     }
 
     private MetricManager metricManager() {
@@ -97,13 +117,20 @@ public final class WorkerConfig implements Config {
     }
 
     private void registerMetrics(@NonNull final MetricManager metricManager) {
-        metrics().forEach(metricManager::register);
+        metrics().forEach((name, metric) -> {
+            if (metric instanceof UpdatableMetric<?>) {
+                metricManager.register(name, (UpdatableMetric<?>) metric);
+            } else {
+                metricManager.register(name, metric);
+            }
+        });
     }
 
     private Map<MetricName, Metric<?>> metrics() {
         if (metrics == null) {
             metrics = Map.of(
-                    MetricName.ACTIVE_REQUESTS, new ActiveRequestsMetric()
+                    MetricName.NUMBER_OF_REQUESTS, new NumberOfRequestsMetric(),
+                    MetricName.CPU_UTILIZATION, new CpuUtilizationMetric()
             );
         }
         return metrics;

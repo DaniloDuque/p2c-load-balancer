@@ -2,7 +2,7 @@ package org.core.handler;
 
 import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
-import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 @Log4j2
-@AllArgsConstructor
+@Builder
 public final class GenericHandler implements HttpHandler {
     @NonNull
     private final InputParser parser;
@@ -57,5 +57,6 @@ public final class GenericHandler implements HttpHandler {
                 os.flush();
             }
         }
+
     }
 }
