@@ -17,6 +17,11 @@ repositories {
     mavenCentral()
 }
 
+task runWorker(type: JavaExec) {
+    mainClass = 'org.worker.WorkerApplication'
+    classpath = sourceSets.main.runtimeClasspath
+}
+
 dependencies {
     implementation 'io.netty:netty-all:4.1.99.Final'
     implementation 'jakarta.inject:jakarta.inject-api:2.0.1'
