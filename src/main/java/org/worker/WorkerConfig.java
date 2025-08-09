@@ -4,8 +4,8 @@ import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import lombok.NonNull;
 import org.core.Config;
-import org.core.client.Client;
-import org.core.client.DefaultClient;
+import org.core.client.MetricClient;
+import org.core.client.DefaultMetricClient;
 import org.core.client.HostMetadata;
 import org.core.handler.ActiveRequestMetricHandler;
 import org.core.metric.ActiveRequestsMetric;
@@ -56,7 +56,7 @@ public final class WorkerConfig implements Config {
     private Solver problemSolver;
     private ErrorBuilder errorBuilder;
     private MetricManager metricManager;
-    private Client client;
+    private MetricClient metricClient;
     private HostMetadata lbHostMetadata;
     private Map<MetricName, Metric<?>> metrics;
 
@@ -83,7 +83,7 @@ public final class WorkerConfig implements Config {
     private MetricManager metricManager() {
         if (metricManager == null) {
             metricManager = MetricManager.builder()
-                    .client(client())
+                    .client(metricClient())
                     .timeUnit(METRIC_MANAGER_TIME_UNIT)
                     .initialDelay(METRIC_MANAGER_INITIAL_DELAY)
                     .delay(METRIC_MANAGER_DELAY)
@@ -107,13 +107,13 @@ public final class WorkerConfig implements Config {
         return metrics;
     }
 
-    private Client client() {
-        if (client == null) {
-            client = DefaultClient.builder()
+    private MetricClient metricClient() {
+        if (metricClient == null) {
+            metricClient = DefaultMetricClient.builder()
                     .hostMetadata(lbHostMetadata())
                     .build();
         }
-        return client;
+        return metricClient;
     }
 
     private HostMetadata lbHostMetadata() {

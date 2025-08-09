@@ -3,10 +3,13 @@ package org.core.metric;
 import lombok.Builder;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
-import org.core.client.Client;
+import lombok.val;
+import org.core.client.MetricClient;
 
 import javax.annotation.PostConstruct;
+import java.util.Collection;
 import java.util.Optional;
+import java.util.ArrayList;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
@@ -19,7 +22,7 @@ public final class MetricManager {
     private final TimeUnit timeUnit;
     private final Integer initialDelay;
     private final Integer delay;
-    private final Client client;
+    private final MetricClient client;
     private final ConcurrentMap<MetricName, Metric<?>> metrics =
             new ConcurrentHashMap<>();
     private final ConcurrentMap<MetricName, UpdatableMetric<?>>
@@ -55,15 +58,27 @@ public final class MetricManager {
     public static final class MetricManagerBuilder {
         public MetricManager build() {
             MetricManager manager = new MetricManager(
-                    timeUnit, initialDelay, delay, client, scheduler
+                    timeUnit,
+                    initialDelay,
+                    delay,
+                    client,
+                    scheduler
             );
             manager.start();
             return manager;
         }
     }
 
+    private Collection<Metric<?>> collectMetrics() {
+        val result = new ArrayList<Metric<?>>();
+        result.addAll(metrics.values());
+        result.addAll(updatableMetrics.values());
+        return result;
+    }
+
     private void collectAndSendMetrics() {
-        log.info("Hi from metric manager");
+        val metricValues = collectMetrics();
+        client.send(metricValues);
     }
 
 }
