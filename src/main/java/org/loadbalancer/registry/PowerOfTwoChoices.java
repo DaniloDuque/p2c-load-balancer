@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.NonNull;
 import lombok.val;
 import org.core.HostMetadata;
+import org.core.metric.HostStatus;
 import org.core.metric.MetricValue;
 
 import java.util.Collection;
@@ -19,8 +20,8 @@ public final class PowerOfTwoChoices implements Selector {
     }
 
     private Pair<
-            Pair<HostMetadata, Collection<MetricValue>>,
-            Pair<HostMetadata, Collection<MetricValue>>
+            HostStatus,
+            HostStatus
             > chooseTwo(
                     @NonNull final ConcurrentMap<
                             HostMetadata,
@@ -30,22 +31,22 @@ public final class PowerOfTwoChoices implements Selector {
         val first = entries.get(RANDOM.nextInt(entries.size()));
         val second = entries.get(RANDOM.nextInt(entries.size()));
         return new Pair<>(
-                new Pair<>(first.getKey(), first.getValue()),
-                new Pair<>(second.getKey(), second.getValue())
+                HostStatus.of(first.getKey(), first.getValue()),
+                HostStatus.of(second.getKey(), second.getValue())
         );
     }
 
     private HostMetadata getBest(
             @NonNull final Pair<
-                    Pair<HostMetadata, Collection<MetricValue>>,
-                    Pair<HostMetadata, Collection<MetricValue>>
+                    HostStatus,
+                    HostStatus
                     > randomPair) {
-        val firstScore = hostScorer.score(randomPair.first().second());
-        val secondScore = hostScorer.score(randomPair.second().second());
+        val firstScore = hostScorer.score(randomPair.first().metrics());
+        val secondScore = hostScorer.score(randomPair.second().metrics());
         return (firstScore > secondScore
                 ? randomPair.first()
                 : randomPair.second()
-        ).first();
+        ).hostMetadata();
     }
 
     @Override

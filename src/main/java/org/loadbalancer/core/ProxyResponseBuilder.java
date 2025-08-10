@@ -1,0 +1,35 @@
+package org.loadbalancer.core;
+
+import lombok.Builder;
+import lombok.NonNull;
+import lombok.val;
+import org.core.StatusCode;
+import org.loadbalancer.client.WorkerClient;
+import org.loadbalancer.registry.LBRegistry;
+import org.model.error.ErrorBuilder;
+import org.model.request.Request;
+import org.model.response.Response;
+import org.model.response.ResponseBuilder;
+
+@Builder
+public final class ProxyResponseBuilder implements ResponseBuilder {
+    private final ErrorBuilder errorBuilder;
+    private final LBRegistry registry;
+    private final WorkerClient client;
+
+    @Override
+    public Response from(@NonNull final Request request) {
+        val hostMetadata = registry.getNextLoadBalancedHost();
+        if (hostMetadata == null) {
+            return errorBuilder.from(
+                    request,
+                    StatusCode.SERVICE_UNAVAILABLE
+            );
+        }
+        try {
+            return client.send(hostMetadata, request);
+        } catch (Exception e) {
+            return errorBuilder.from(request, StatusCode.INTERNAL_SERVER_ERROR);
+        }
+    }
+}

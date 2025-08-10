@@ -3,6 +3,7 @@ package org.loadbalancer.registry;
 import lombok.Builder;
 import lombok.NonNull;
 import org.core.HostMetadata;
+import org.core.metric.HostStatus;
 import org.core.metric.MetricValue;
 
 import java.util.Collection;
@@ -22,9 +23,7 @@ public final class DefaultLBRegistry implements LBRegistry {
     }
 
     @Override
-    public void updateWorkerHost(
-            @NonNull final HostMetadata hostMetadata,
-            @NonNull final Collection<MetricValue> metricsValues) {
-        registryMap.put(hostMetadata, metricsValues);
+    public void updateWorkerHost(@NonNull final HostStatus hostStatus) {
+        registryMap.put(hostStatus.hostMetadata(), hostStatus.metrics());
     }
 }

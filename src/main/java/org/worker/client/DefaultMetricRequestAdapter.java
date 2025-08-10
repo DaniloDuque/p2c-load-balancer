@@ -5,12 +5,12 @@ import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
 import org.core.HostMetadata;
+import org.core.metric.HostStatus;
 import org.core.metric.Metric;
 
 import java.net.URI;
 import java.net.http.HttpRequest;
 import java.util.Collection;
-import java.util.stream.Collectors;
 
 @Log4j2
 @NoArgsConstructor
@@ -19,17 +19,11 @@ public final class DefaultMetricRequestAdapter implements MetricRequestAdapter {
     private static final String CONTENT_TYPE_NAME = "Content-Type";
     private static final String CONTENT_TYPE_VALUE = "application/json";
 
-    private String serializeMetrics(
-            @NonNull final Collection<Metric<?>> metrics) {
-        return metrics.stream()
-                .map(metric -> metric.getValue().toString())
-                .collect(Collectors.joining(","));
-    }
-
     @Override
     public HttpRequest adapt(
             @NonNull final HostMetadata hostMetadata,
             @NonNull final Collection<Metric<?>> metrics) {
+        val metricValues = metrics.stream().map(Metric::getValue).toList();
         val uri = URI.create(
                 String.format(
                         "http://%s:%d/%s",
@@ -38,11 +32,10 @@ public final class DefaultMetricRequestAdapter implements MetricRequestAdapter {
                         METRIC_PATH
                 )
         );
-        log.info(serializeMetrics(metrics));
         return HttpRequest.newBuilder()
                 .uri(uri)
                 .POST(HttpRequest.BodyPublishers.ofString(
-                        serializeMetrics(metrics))
+                        HostStatus.of(hostMetadata, metricValues).toString())
                 )
                 .header(CONTENT_TYPE_NAME, CONTENT_TYPE_VALUE)
                 .build();
