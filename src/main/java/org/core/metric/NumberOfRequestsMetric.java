@@ -15,13 +15,8 @@ public final class NumberOfRequestsMetric implements UpdatableMetric<Integer> {
     }
 
     @Override
-    public Integer getValue() {
-        return (int) activeCount.get();
-    }
-
-    @Override
-    public String toString() {
-        return String.format("[%s,%d]",
+    public MetricValue getValue() {
+        return new MetricValue(
                 MetricName.NUMBER_OF_REQUESTS,
                 activeCount.get()
         );

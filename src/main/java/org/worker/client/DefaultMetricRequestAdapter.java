@@ -22,7 +22,7 @@ public final class DefaultMetricRequestAdapter implements MetricRequestAdapter {
     private String serializeMetrics(
             @NonNull final Collection<Metric<?>> metrics) {
         return metrics.stream()
-                .map(Metric::toString)
+                .map(metric -> metric.getValue().toString())
                 .collect(Collectors.joining(","));
     }
 
