@@ -64,6 +64,7 @@ public final class MetricManager {
 
     private void collectAndSendMetrics() {
         val metricValues = collectMetrics();
+        log.info("Sending metrics: {}", metricValues);
         client.send(metricValues);
     }
 

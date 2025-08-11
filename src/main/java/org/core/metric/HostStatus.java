@@ -20,15 +20,26 @@ public record HostStatus(HostMetadata hostMetadata,
 
     private static Collection<MetricValue> deserializeMetrics(
             @NonNull final String serializedMetrics) {
-        return java.util.Arrays.stream(serializedMetrics.split(","))
-                .map(metricStr -> new MetricValue(metricStr, Object.class))
+        return java.util.Arrays.stream(serializedMetrics.split("],\\["))
+                .map(metricStr -> metricStr.startsWith("[")
+                        ? metricStr
+                        : "[" + metricStr
+                )
+                .map(metricStr -> metricStr.endsWith("]")
+                        ? metricStr
+                        : metricStr + "]"
+                )
+                .map(metricStr -> new MetricValue(
+                        metricStr,
+                        Object.class)
+                )
                 .collect(Collectors.toList());
     }
 
     @NotNull
     @Override
     public String toString() {
-        return hostMetadata.toString() + "," + serializeMetrics(metrics);
+        return hostMetadata.toString() + ":" + serializeMetrics(metrics);
     }
 
     public static HostStatus of(@NonNull final HostMetadata hostMetadata,
@@ -39,12 +50,9 @@ public record HostStatus(HostMetadata hostMetadata,
     }
 
     public static HostStatus from(@NonNull final String serialized) {
-        val parts = serialized.split(",", 2);
+        val parts = serialized.split(":", 2);
         return new HostStatus(
-                new HostMetadata(
-                        parts[0].split(":")[0],
-                        Integer.parseInt(parts[0].split(":")[1])
-                ),
+                HostMetadata.from(parts[0]),
                 deserializeMetrics(parts[1])
         );
     }

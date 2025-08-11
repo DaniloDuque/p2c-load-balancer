@@ -2,6 +2,7 @@ package org.loadbalancer.core;
 
 import lombok.Builder;
 import lombok.NonNull;
+import lombok.extern.log4j.Log4j2;
 import lombok.val;
 import org.core.StatusCode;
 import org.loadbalancer.client.WorkerClient;
@@ -11,6 +12,7 @@ import org.model.request.Request;
 import org.model.response.Response;
 import org.model.response.ResponseBuilder;
 
+@Log4j2
 @Builder
 public final class ProxyResponseBuilder implements ResponseBuilder {
     private final ErrorBuilder errorBuilder;
@@ -29,6 +31,7 @@ public final class ProxyResponseBuilder implements ResponseBuilder {
         try {
             return client.send(hostMetadata, request);
         } catch (Exception e) {
+            log.info("Failed to send request to worker: {}", e.getMessage());
             return errorBuilder.from(request, StatusCode.INTERNAL_SERVER_ERROR);
         }
     }

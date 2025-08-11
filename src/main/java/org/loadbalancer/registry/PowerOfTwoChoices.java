@@ -55,6 +55,9 @@ public final class PowerOfTwoChoices implements Selector {
                     HostMetadata,
                     Collection<MetricValue>
                     > workerHostMap) {
+        if (workerHostMap.isEmpty()) {
+            return null;
+        }
         val randomPair = chooseTwo(workerHostMap);
         return getBest(randomPair);
     }

@@ -42,6 +42,7 @@ public final class WorkerApplication {
 
             Config config = WorkerConfig.builder()
                     .errorsDirectory(errorsDirectory)
+                    .port(port.getAsInt())
                     .build();
 
             ServerConfig serverConfig = ServerConfig.builder()

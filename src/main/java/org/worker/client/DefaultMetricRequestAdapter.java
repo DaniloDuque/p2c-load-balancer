@@ -21,21 +21,22 @@ public final class DefaultMetricRequestAdapter implements MetricRequestAdapter {
 
     @Override
     public HttpRequest adapt(
-            @NonNull final HostMetadata hostMetadata,
+            @NonNull final HostMetadata serverMetadata,
+            @NonNull final HostMetadata localMetadata,
             @NonNull final Collection<Metric<?>> metrics) {
         val metricValues = metrics.stream().map(Metric::getValue).toList();
         val uri = URI.create(
                 String.format(
                         "http://%s:%d/%s",
-                        hostMetadata.host(),
-                        hostMetadata.port(),
+                        serverMetadata.host(),
+                        serverMetadata.port(),
                         METRIC_PATH
                 )
         );
         return HttpRequest.newBuilder()
                 .uri(uri)
                 .POST(HttpRequest.BodyPublishers.ofString(
-                        HostStatus.of(hostMetadata, metricValues).toString())
+                        HostStatus.of(localMetadata, metricValues).toString())
                 )
                 .header(CONTENT_TYPE_NAME, CONTENT_TYPE_VALUE)
                 .build();

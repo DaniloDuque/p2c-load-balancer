@@ -14,11 +14,12 @@ import java.util.Collection;
 public final class DefaultMetricClient implements MetricClient {
     private final MetricRequestAdapter adapter;
     private final HostMetadata hostMetadata;
+    private final HostMetadata lbHostMetadata;
     private final HttpClient client;
 
     @Override
     public void send(@NonNull final Collection<Metric<?>> metrics) {
-        val request = adapter.adapt(hostMetadata, metrics);
+        val request = adapter.adapt(lbHostMetadata, hostMetadata, metrics);
         client.sendAsync(request, HttpResponse.BodyHandlers.ofString());
     }
 }

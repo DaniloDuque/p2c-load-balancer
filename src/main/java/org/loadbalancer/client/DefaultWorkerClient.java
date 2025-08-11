@@ -14,9 +14,13 @@ import java.net.http.HttpRequest;
 import java.net.http.HttpResponse;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Set;
 
 @NoArgsConstructor
 public final class DefaultWorkerClient implements WorkerClient {
+    private static final Set<String> RESTRICTED_HEADERS = Set.of(
+            "connection", "content-length", "host", "upgrade"
+    );
     private final HttpClient httpClient = HttpClient.newHttpClient();
 
     @Override
@@ -33,7 +37,14 @@ public final class DefaultWorkerClient implements WorkerClient {
                        ? HttpRequest.BodyPublishers.ofInputStream(request::body)
                        : HttpRequest.BodyPublishers.noBody());
 
-        request.headers().forEach(builder::header);
+        request.headers().entrySet().stream()
+                .filter(entry -> !isRestrictedHeader(
+                        entry.getKey())
+                )
+                .forEach(entry -> builder.header(
+                        entry.getKey(),
+                        entry.getValue())
+                );
 
         HttpResponse<byte[]> response = httpClient.send(
                 builder.build(),
@@ -48,5 +59,9 @@ public final class DefaultWorkerClient implements WorkerClient {
                 headers,
                 new ByteArrayInputStream(response.body())
         );
+    }
+
+    private boolean isRestrictedHeader(@NonNull final String headerName) {
+        return RESTRICTED_HEADERS.contains(headerName.toLowerCase());
     }
 }

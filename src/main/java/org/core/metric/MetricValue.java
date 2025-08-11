@@ -11,10 +11,10 @@ public record MetricValue(MetricName name, Object value) {
 
     private static MetricName parseName(@NonNull final String metricValue) {
         return MetricName.valueOf(
-                metricValue.substring(
-                        1,
-                        metricValue.length() - 1
-                ).split(",", 2)[0]
+            metricValue.substring(
+                    1,
+                    metricValue.length() - 1
+            ).split(",", 2)[0]
         );
     }
 

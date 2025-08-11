@@ -49,14 +49,16 @@ public final class WorkerConfig implements Config {
     private static final String DATE_FORMAT = "EEE, dd MMM yyyy HH:mm:ss 'GMT'";
     private static final Locale LOCALE_FORMAT = Locale.ENGLISH;
     private static final String TIME_ZONE = "GMT";
-    private static final String LB_HOST = "localhost";
     private static final Integer LB_PORT = 8080;
-    private static final Integer METRIC_MANAGER_INITIAL_DELAY = 5;
-    private static final Integer METRIC_MANAGER_DELAY = 2;
+    private static final String LB_HOST = "localhost";
+    private static final String HOST = "localhost";
+    private static final Integer METRIC_MANAGER_INITIAL_DELAY = 1;
+    private static final Integer METRIC_MANAGER_DELAY = 5;
     private static final TimeUnit METRIC_MANAGER_TIME_UNIT = TimeUnit.SECONDS;
     private static final ScheduledExecutorService METRIC_EXECUTOR_SERVICE =
             Executors.newScheduledThreadPool(1);
 
+    private final int port;
     private final Resource errorsDirectory;
     private RequestProcessor requestProcessor;
     private Map<Method, ResponseBuilder> responseBuilders;
@@ -65,6 +67,7 @@ public final class WorkerConfig implements Config {
     private ErrorBuilder errorBuilder;
     private MetricManager metricManager;
     private MetricClient metricClient;
+    private HostMetadata hostMetadata;
     private HostMetadata lbHostMetadata;
     private Map<MetricName, Metric<?>> metrics;
 
@@ -141,10 +144,18 @@ public final class WorkerConfig implements Config {
             metricClient = DefaultMetricClient.builder()
                     .adapter(new DefaultMetricRequestAdapter())
                     .client(HttpClient.newHttpClient())
-                    .hostMetadata(lbHostMetadata())
+                    .lbHostMetadata(lbHostMetadata())
+                    .hostMetadata(hostMetadata())
                     .build();
         }
         return metricClient;
+    }
+
+    private HostMetadata hostMetadata() {
+        if (hostMetadata == null) {
+            hostMetadata = new HostMetadata(HOST, port);
+        }
+        return hostMetadata;
     }
 
     private HostMetadata lbHostMetadata() {

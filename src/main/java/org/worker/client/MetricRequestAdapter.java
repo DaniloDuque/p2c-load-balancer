@@ -7,5 +7,9 @@ import java.net.http.HttpRequest;
 import java.util.Collection;
 
 public interface MetricRequestAdapter {
-    HttpRequest adapt(HostMetadata hostMetadata, Collection<Metric<?>> metrics);
+    HttpRequest adapt(
+            HostMetadata serverMetadata,
+            HostMetadata localMetadata,
+            Collection<Metric<?>> metrics
+    );
 }
