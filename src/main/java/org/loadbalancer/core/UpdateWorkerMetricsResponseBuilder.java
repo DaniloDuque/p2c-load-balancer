@@ -6,10 +6,10 @@ import lombok.extern.log4j.Log4j2;
 import org.core.StatusCode;
 import org.core.metric.HostStatus;
 import org.loadbalancer.registry.LBRegistry;
-import org.model.error.ErrorBuilder;
-import org.model.request.Request;
-import org.model.response.Response;
-import org.model.response.ResponseBuilder;
+import org.core.error.ErrorBuilder;
+import org.core.request.Request;
+import org.core.response.Response;
+import org.core.response.ResponseBuilder;
 
 import java.io.InputStream;
 import java.util.Map;

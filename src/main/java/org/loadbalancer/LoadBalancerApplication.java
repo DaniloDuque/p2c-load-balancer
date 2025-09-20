@@ -1,5 +1,6 @@
 package org.loadbalancer;
 
+
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import org.core.Config;
@@ -40,9 +41,13 @@ public final class LoadBalancerApplication {
         try {
             ensureErrorsDirectory(errorsDirectory);
 
-            Config config = LoadBalancerConfig.builder()
-                    .errorsDirectory(errorsDirectory)
-                    .build();
+            LoadBalancerContextListener contextListener =
+                    new LoadBalancerContextListener(
+                            port.getAsInt(), errorsPath
+                    );
+            Config config = contextListener
+                    .getInjector()
+                    .getInstance(Config.class);
 
             ServerConfig serverConfig = ServerConfig.builder()
                     .port(port.getAsInt())

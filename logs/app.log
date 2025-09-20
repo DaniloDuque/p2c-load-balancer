@@ -1700,7 +1700,7 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 17:25:51.129 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:25:59.681 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:26:04.039 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:26:04.041 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Parsed request: org.model.request.Request@6f51f6d0
+2025-08-10 17:26:04.041 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Parsed request: org.core.request.Request@6f51f6d0
 2025-08-10 17:28:41.002 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:29:22.694 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:29:25.881 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
@@ -1785,7 +1785,7 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 17:29:59.582 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:30:44.363 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:30:49.881 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:30:49.883 [pool-2-thread-2] INFO org.core.processor.DefaultRequestProcessor - Processing request: org.model.request.Request@3c1b0fcf
+2025-08-10 17:30:49.883 [pool-2-thread-2] INFO org.core.processor.DefaultRequestProcessor - Processing request: org.core.request.Request@3c1b0fcf
 2025-08-10 17:31:06.078 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:31:15.052 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:31:18.012 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
@@ -1805,14 +1805,14 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 17:34:21.100 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:34:29.569 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:34:30.287 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:34:30.290 [pool-2-thread-2] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.model.request.Request@454a46d8
+2025-08-10 17:34:30.290 [pool-2-thread-2] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.core.request.Request@454a46d8
 2025-08-10 17:34:49.430 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:34:57.845 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:35:09.247 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
 2025-08-10 17:36:46.282 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:37:03.597 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:37:07.171 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:37:07.174 [pool-2-thread-2] WARN org.model.error.DefaultErrorBuilder - Error opening stream: src/main/resources/errors/SERVICE_UNAVAILABLE.html
+2025-08-10 17:37:07.174 [pool-2-thread-2] WARN org.core.error.DefaultErrorBuilder - Error opening stream: src/main/resources/errors/SERVICE_UNAVAILABLE.html
 2025-08-10 17:38:02.121 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:38:09.980 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:38:15.935 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
@@ -2237,7 +2237,7 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 18:03:10.426 [pool-2-thread-1] INFO org.core.handler.GenericHandler - Received request: POST
 2025-08-10 18:03:12.452 [pool-2-thread-3] INFO org.core.handler.GenericHandler - Received request: GET
 2025-08-10 18:03:12.454 [pool-2-thread-3] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
-2025-08-10 18:03:12.454 [pool-2-thread-3] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.model.request.Request@7f60e5c6
+2025-08-10 18:03:12.454 [pool-2-thread-3] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.core.request.Request@7f60e5c6
 2025-08-10 18:03:15.388 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@3c8b454f, org.core.metric.NumberOfRequestsMetric@7989dcba]
 2025-08-10 18:03:15.395 [pool-2-thread-4] INFO org.core.handler.GenericHandler - Received request: POST
 2025-08-10 18:03:20.393 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@3c8b454f, org.core.metric.NumberOfRequestsMetric@7989dcba]
@@ -2246,7 +2246,7 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 18:03:25.409 [pool-2-thread-6] INFO org.core.handler.GenericHandler - Received request: POST
 2025-08-10 18:03:28.089 [pool-2-thread-8] INFO org.core.handler.GenericHandler - Received request: GET
 2025-08-10 18:03:28.090 [pool-2-thread-8] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
-2025-08-10 18:03:28.090 [pool-2-thread-8] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.model.request.Request@714c16c
+2025-08-10 18:03:28.090 [pool-2-thread-8] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.core.request.Request@714c16c
 2025-08-10 18:03:30.410 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@3c8b454f, org.core.metric.NumberOfRequestsMetric@7989dcba]
 2025-08-10 18:03:30.419 [pool-2-thread-9] INFO org.core.handler.GenericHandler - Received request: POST
 2025-08-10 18:03:35.417 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@3c8b454f, org.core.metric.NumberOfRequestsMetric@7989dcba]
@@ -2380,7 +2380,7 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 18:08:43.663 [pool-2-thread-1] INFO org.core.handler.GenericHandler - Received request: POST
 2025-08-10 18:08:46.200 [pool-2-thread-3] INFO org.core.handler.GenericHandler - Received request: GET
 2025-08-10 18:08:46.206 [pool-2-thread-3] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
-2025-08-10 18:08:46.207 [pool-2-thread-3] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.model.request.Request@4acf25db
+2025-08-10 18:08:46.207 [pool-2-thread-3] INFO org.loadbalancer.core.ProxyResponseBuilder - Sending request to worker: org.core.request.Request@4acf25db
 2025-08-10 18:08:47.346 [pool-2-thread-4] INFO org.core.handler.GenericHandler - Received request: POST
 2025-08-10 18:08:48.634 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@3c8b454f, org.core.metric.NumberOfRequestsMetric@7989dcba]
 2025-08-10 18:08:48.648 [pool-2-thread-5] INFO org.core.handler.GenericHandler - Received request: POST
@@ -3339,3 +3339,151 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 18:40:41.446 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@3c8b454f, org.core.metric.NumberOfRequestsMetric@7989dcba]
 2025-08-10 18:40:44.190 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 18:40:44.208 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-09-20 17:04:15.158 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-09-20 17:04:16.156 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:21.190 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:26.194 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:31.202 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:36.212 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:41.223 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:46.239 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:51.243 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:04:56.252 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:01.257 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:06.271 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:11.283 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:16.292 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:21.297 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:26.302 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:31.309 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:05:36.318 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:06:06.615 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-09-20 17:06:06.944 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8081
+2025-09-20 17:06:07.612 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:06:07.946 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:12.643 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:06:12.975 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:17.657 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:06:17.991 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:22.665 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:06:22.996 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:24.043 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-09-20 17:06:28.006 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:33.022 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:38.031 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:43.037 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:48.042 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:53.051 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:06:58.058 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:03.063 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:08.067 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:13.073 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:18.084 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:23.093 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:28.099 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:33.106 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:38.111 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:43.115 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:48.122 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:53.130 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:07:58.136 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:03.160 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:08.163 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:13.174 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:18.193 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:23.197 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:28.206 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:33.221 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:38.227 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:43.232 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:48.243 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:48.749 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-09-20 17:08:49.748 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:08:53.254 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:54.780 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@7d5912a2, org.core.metric.NumberOfRequestsMetric@385b936d]
+2025-09-20 17:08:58.259 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:08:58.977 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-09-20 17:09:03.267 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:08.277 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:13.287 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:18.298 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:23.305 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:28.311 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:29.341 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
+2025-09-20 17:09:33.320 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:33.362 [pool-2-thread-1] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:09:38.346 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:38.356 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:09:43.357 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:43.394 [pool-2-thread-3] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:09:48.387 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:48.414 [pool-2-thread-4] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:09:53.404 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:53.424 [pool-2-thread-5] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:09:58.417 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:09:58.425 [pool-2-thread-6] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:03.427 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:03.462 [pool-2-thread-7] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:08.451 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:08.465 [pool-2-thread-8] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:13.460 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:13.473 [pool-2-thread-9] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:18.475 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:18.511 [pool-2-thread-10] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:18.924 [pool-2-thread-12] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:10:18.932 [pool-2-thread-12] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
+2025-09-20 17:10:19.022 [pool-3-thread-1] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:10:23.494 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:23.528 [pool-2-thread-13] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:28.509 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:28.513 [pool-2-thread-14] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:33.516 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:33.518 [pool-2-thread-15] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:38.522 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:38.524 [pool-2-thread-16] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:43.525 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:43.529 [pool-2-thread-17] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:48.530 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:48.532 [pool-2-thread-18] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:53.534 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:53.538 [pool-2-thread-19] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:10:55.875 [pool-2-thread-21] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:10:55.876 [pool-2-thread-21] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
+2025-09-20 17:10:55.885 [pool-3-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:10:58.540 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:10:58.542 [pool-2-thread-22] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:03.547 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:03.552 [pool-2-thread-23] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:08.552 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:08.588 [pool-2-thread-24] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:13.558 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:13.560 [pool-2-thread-25] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:18.565 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:18.601 [pool-2-thread-1] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:23.575 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:23.586 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:28.588 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:28.593 [pool-2-thread-3] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:33.595 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:33.599 [pool-2-thread-4] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:38.603 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:38.612 [pool-2-thread-5] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:39.050 [pool-2-thread-7] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:11:39.050 [pool-2-thread-7] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
+2025-09-20 17:11:39.067 [pool-3-thread-3] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:11:43.610 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:43.639 [pool-2-thread-8] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:43.890 [pool-2-thread-9] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:11:43.891 [pool-2-thread-9] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
+2025-09-20 17:11:43.903 [pool-3-thread-4] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:11:48.623 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:48.627 [pool-2-thread-11] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:50.984 [pool-2-thread-13] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:11:50.985 [pool-2-thread-13] INFO org.loadbalancer.registry.DefaultLBRegistry - registry map has 1 entries
+2025-09-20 17:11:50.996 [pool-3-thread-5] INFO org.core.handler.GenericHandler - Received request: GET
+2025-09-20 17:11:53.629 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:53.631 [pool-2-thread-14] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:11:58.633 [pool-2-thread-1] INFO org.core.metric.MetricManager - Sending metrics: [org.core.metric.CpuUtilizationMetric@350a3ffa, org.core.metric.NumberOfRequestsMetric@7008b73f]
+2025-09-20 17:11:58.635 [pool-2-thread-15] INFO org.core.handler.GenericHandler - Received request: POST
+2025-09-20 17:12:01.073 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-09-20 17:12:02.103 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...

@@ -4,8 +4,8 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import org.core.HostMetadata;
 import org.core.StatusCode;
-import org.model.request.Request;
-import org.model.response.Response;
+import org.core.request.Request;
+import org.core.response.Response;
 
 import java.io.ByteArrayInputStream;
 import java.net.URI;

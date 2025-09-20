@@ -4,11 +4,11 @@ import lombok.Builder;
 import lombok.NonNull;
 import lombok.val;
 import org.core.StatusCode;
-import org.model.error.ErrorBuilder;
-import org.model.request.Request;
-import org.model.response.Response;
-import org.model.response.ResponseBuilder;
-import org.model.response.ResponseUtils;
+import org.core.error.ErrorBuilder;
+import org.core.request.Request;
+import org.core.response.Response;
+import org.core.response.ResponseBuilder;
+import org.core.response.ResponseUtils;
 
 import java.text.SimpleDateFormat;
 import java.util.Map;

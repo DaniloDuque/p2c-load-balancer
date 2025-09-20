@@ -7,10 +7,10 @@ import lombok.val;
 import org.core.StatusCode;
 import org.loadbalancer.client.WorkerClient;
 import org.loadbalancer.registry.LBRegistry;
-import org.model.error.ErrorBuilder;
-import org.model.request.Request;
-import org.model.response.Response;
-import org.model.response.ResponseBuilder;
+import org.core.error.ErrorBuilder;
+import org.core.request.Request;
+import org.core.response.Response;
+import org.core.response.ResponseBuilder;
 
 @Log4j2
 @Builder

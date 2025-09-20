@@ -1,5 +1,6 @@
 package org.worker;
 
+
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import org.core.Config;
@@ -40,10 +41,15 @@ public final class WorkerApplication {
         try {
             ensureErrorsDirectory(errorsDirectory);
 
-            Config config = WorkerConfig.builder()
-                    .errorsDirectory(errorsDirectory)
-                    .port(port.getAsInt())
-                    .build();
+            WorkerContextListener contextListener = new WorkerContextListener(
+                    port.getAsInt(),
+                    errorsPath
+            );
+            Config config = contextListener
+                    .getInjector()
+                    .getInstance(
+                        Config.class
+                    );
 
             ServerConfig serverConfig = ServerConfig.builder()
                     .port(port.getAsInt())

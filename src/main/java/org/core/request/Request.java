@@ -1,4 +1,4 @@
-package org.model.request;
+package org.core.request;
 
 import lombok.AllArgsConstructor;
 
