@@ -1785,23 +1785,23 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-08-10 17:29:59.582 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:30:44.363 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:30:49.881 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:30:49.883 [pool-2-thread-2] INFO org.core.processor.DefaultRequestProcessor - Processing request: org.core.request.Request@3c1b0fcf
+2025-08-10 17:30:49.883 [pool-2-thread-2] INFO org.core.request.DefaultRequestProcessor - Processing request: org.core.request.Request@3c1b0fcf
 2025-08-10 17:31:06.078 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:31:15.052 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:31:18.012 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:31:18.015 [pool-2-thread-2] INFO org.core.processor.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
+2025-08-10 17:31:18.015 [pool-2-thread-2] INFO org.core.request.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
 2025-08-10 17:31:28.481 [pool-2-thread-4] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:31:28.483 [pool-2-thread-4] INFO org.core.processor.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
+2025-08-10 17:31:28.483 [pool-2-thread-4] INFO org.core.request.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
 2025-08-10 17:31:33.987 [pool-2-thread-6] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:31:33.989 [pool-2-thread-6] INFO org.core.processor.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
+2025-08-10 17:31:33.989 [pool-2-thread-6] INFO org.core.request.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
 2025-08-10 17:31:41.947 [pool-2-thread-8] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:31:41.948 [pool-2-thread-8] INFO org.core.processor.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
+2025-08-10 17:31:41.948 [pool-2-thread-8] INFO org.core.request.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
 2025-08-10 17:32:46.664 [pool-2-thread-10] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:32:46.666 [pool-2-thread-10] INFO org.core.processor.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
+2025-08-10 17:32:46.666 [pool-2-thread-10] INFO org.core.request.DefaultRequestProcessor - Processing request: /solver/queen?boardSize=10
 2025-08-10 17:33:23.356 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:33:32.239 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:33:32.734 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
-2025-08-10 17:33:32.736 [pool-2-thread-2] INFO org.core.processor.DefaultRequestProcessor - Processing request: GET
+2025-08-10 17:33:32.736 [pool-2-thread-2] INFO org.core.request.DefaultRequestProcessor - Processing request: GET
 2025-08-10 17:34:21.100 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-08-10 17:34:29.569 [main] INFO org.core.HttpServer - Starting HTTP server on port: 8080
 2025-08-10 17:34:30.287 [pool-2-thread-2] INFO org.core.handler.GenericHandler - Received request: GET
@@ -3487,3 +3487,72 @@ java.lang.NullPointerException: Cannot invoke "java.util.Map.get(Object)" becaus
 2025-09-20 17:11:58.635 [pool-2-thread-15] INFO org.core.handler.GenericHandler - Received request: POST
 2025-09-20 17:12:01.073 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
 2025-09-20 17:12:02.103 [Thread-0] INFO org.core.HttpServer - Stopping HTTP server...
+2025-09-22 17:17:48.652 [main] INFO HttpServer - Starting HTTP server on port: 8080
+2025-09-22 17:18:03.539 [main] INFO HttpServer - Starting HTTP server on port: 8081
+2025-09-22 17:18:04.536 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:04.588 [pool-2-thread-1] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:04.591 [pool-2-thread-1] INFO DefaultLBRegistry - Registered new worker: localhost:8081
+2025-09-22 17:18:09.563 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:09.567 [pool-2-thread-2] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:14.570 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:14.576 [pool-2-thread-3] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:19.578 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:19.587 [pool-2-thread-4] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:24.589 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:24.613 [pool-2-thread-5] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:29.381 [pool-2-thread-7] INFO GenericHandler - GET /solver/queen from 0:0:0:0:0:0:0:1
+2025-09-22 17:18:29.462 [pool-3-thread-1] INFO GenericHandler - GET /solver/queen from 127.0.0.1
+2025-09-22 17:18:29.607 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:29.647 [pool-2-thread-8] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:34.637 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:34.660 [pool-2-thread-9] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:39.648 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:39.653 [pool-2-thread-10] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:44.650 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:44.657 [pool-2-thread-11] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:45.394 [pool-2-thread-12] INFO GenericHandler - GET /solver/queen from 0:0:0:0:0:0:0:1
+2025-09-22 17:18:45.410 [pool-3-thread-2] INFO GenericHandler - GET /solver/queen from 127.0.0.1
+2025-09-22 17:18:49.657 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:49.663 [pool-2-thread-13] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:54.662 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:54.667 [pool-2-thread-14] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:18:59.666 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:18:59.672 [pool-2-thread-15] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:19:00.425 [pool-2-thread-16] INFO GenericHandler - GET /solver/queen from 0:0:0:0:0:0:0:1
+2025-09-22 17:19:00.430 [pool-3-thread-3] INFO GenericHandler - GET /solver/queen from 127.0.0.1
+2025-09-22 17:19:00.804 [pool-2-thread-17] INFO GenericHandler - GET /solver/queen from 0:0:0:0:0:0:0:1
+2025-09-22 17:19:00.809 [pool-3-thread-4] INFO GenericHandler - GET /solver/queen from 127.0.0.1
+2025-09-22 17:19:04.674 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:19:04.680 [pool-2-thread-18] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:19:09.679 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:19:09.685 [pool-2-thread-19] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:19:12.238 [Thread-0] INFO HttpServer - Stopping HTTP server...
+2025-09-22 17:19:14.689 [pool-2-thread-20] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:19:16.969 [pool-2-thread-21] INFO GenericHandler - GET /solver/queen from 0:0:0:0:0:0:0:1
+2025-09-22 17:19:19.691 [pool-2-thread-22] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:19:41.440 [Thread-0] INFO HttpServer - Stopping HTTP server...
+2025-09-22 17:58:24.679 [main] INFO HttpServer - Starting HTTP server on port: 8080
+2025-09-22 17:58:36.737 [main] INFO HttpServer - Starting HTTP server on port: 8081
+2025-09-22 17:58:37.728 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:58:37.783 [pool-2-thread-1] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:58:37.786 [pool-2-thread-1] INFO DefaultLBRegistry - Registered new worker: localhost:8081
+2025-09-22 17:58:42.760 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:58:42.770 [pool-2-thread-2] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:58:47.767 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:58:47.785 [pool-2-thread-3] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:58:50.464 [pool-2-thread-5] INFO GenericHandler - GET /solver/queen from 0:0:0:0:0:0:0:1
+2025-09-22 17:58:50.530 [pool-3-thread-1] INFO GenericHandler - GET /solver/queen from 127.0.0.1
+2025-09-22 17:58:52.694 [pool-2-thread-6] INFO GenericHandler - GET /solver/queen from 0:0:0:0:0:0:0:1
+2025-09-22 17:58:52.697 [pool-3-thread-2] INFO GenericHandler - GET /solver/queen from 127.0.0.1
+2025-09-22 17:58:52.773 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:58:52.775 [pool-2-thread-7] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:58:57.779 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:58:57.786 [pool-2-thread-8] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:59:02.783 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:59:02.789 [pool-2-thread-9] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:59:07.789 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:59:07.797 [pool-2-thread-10] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:59:12.796 [pool-2-thread-1] INFO MetricManager - Sending 2 metrics to load balancer
+2025-09-22 17:59:12.801 [pool-2-thread-11] INFO GenericHandler - POST /metrics from 127.0.0.1
+2025-09-22 17:59:15.380 [Thread-0] INFO HttpServer - Stopping HTTP server...
+2025-09-22 17:59:16.355 [Thread-0] INFO HttpServer - Stopping HTTP server...

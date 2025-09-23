@@ -1,11 +1,9 @@
-package org.core.processor;
+package org.core.request;
 
 import lombok.Builder;
 import lombok.NonNull;
 import org.core.StatusCode;
 import org.core.error.ErrorBuilder;
-import org.core.request.Method;
-import org.core.request.Request;
 import org.core.response.Response;
 import org.core.response.ResponseBuilder;
 

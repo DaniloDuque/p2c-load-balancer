@@ -31,7 +31,8 @@ public final class ProxyResponseBuilder implements ResponseBuilder {
         try {
             return client.send(hostMetadata, request);
         } catch (Exception e) {
-            log.info("Failed to send request to worker: {}", e.getMessage());
+            log.warn("Worker {}:{} failed to process request: {}",
+                    hostMetadata.host(), hostMetadata.port(), e.getMessage());
             return errorBuilder.from(request, StatusCode.INTERNAL_SERVER_ERROR);
         }
     }

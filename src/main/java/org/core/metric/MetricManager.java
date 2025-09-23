@@ -64,8 +64,12 @@ public final class MetricManager {
 
     private void collectAndSendMetrics() {
         val metricValues = collectMetrics();
-        log.info("Sending metrics: {}", metricValues);
-        client.send(metricValues);
+        log.info("Sending {} metrics to load balancer", metricValues.size());
+        try {
+            client.send(metricValues);
+        } catch (Exception e) {
+            log.error("Failed to send metrics: {}", e.getMessage());
+        }
     }
 
     public static final class MetricManagerBuilder {

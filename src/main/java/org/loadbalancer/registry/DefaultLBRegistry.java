@@ -21,12 +21,25 @@ public final class DefaultLBRegistry implements LBRegistry {
 
     @Override
     public HostMetadata getNextLoadBalancedHost() {
-        log.info("registry map has " + registryMap.size() + " entries");
+
+        if (registryMap.isEmpty()) {
+            log.warn("No workers available for load balancing");
+            return null;
+        }
         return selector.getNextHost(registryMap);
     }
 
     @Override
     public void updateWorkerHost(@NonNull final HostStatus hostStatus) {
+        boolean isNewWorker = !registryMap.containsKey(
+                hostStatus.hostMetadata()
+        );
         registryMap.put(hostStatus.hostMetadata(), hostStatus.metrics());
+
+        if (isNewWorker) {
+            log.info("Registered new worker: {}:{}",
+                    hostStatus.hostMetadata().host(),
+                    hostStatus.hostMetadata().port());
+        }
     }
 }

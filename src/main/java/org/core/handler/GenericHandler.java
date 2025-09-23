@@ -6,13 +6,11 @@ import lombok.Builder;
 import lombok.NonNull;
 import lombok.extern.log4j.Log4j2;
 import lombok.val;
-import org.core.request.Method;
-import org.core.response.Response;
 import org.core.parser.InputParser;
-import org.core.processor.RequestProcessor;
+import org.core.request.RequestProcessor;
+import org.core.response.ResponseWriter;
 
 import java.io.IOException;
-import java.io.OutputStream;
 
 @Log4j2
 @Builder
@@ -23,40 +21,27 @@ public final class GenericHandler implements HttpHandler {
     @NonNull
     private final RequestProcessor requestProcessor;
 
+    @NonNull
+    private final ResponseWriter responseProcessor;
+
     @Override
     public void handle(
             @NonNull final HttpExchange exchange) throws IOException {
-        log.info("Received request: {}", exchange.getRequestMethod());
+        String method = exchange.getRequestMethod();
+        String path = exchange.getRequestURI().getPath();
+        String clientAddress = exchange
+                .getRemoteAddress()
+                .getAddress()
+                .getHostAddress();
+
+        log.info("{} {} from {}", method, path, clientAddress);
+
         val parsedRequest = parser.parse(exchange);
         val response = requestProcessor.process(parsedRequest);
-        sendResponse(exchange, response);
-    }
-
-    private void sendResponse(
-            @NonNull final HttpExchange exchange,
-            @NonNull final Response response) throws IOException {
-
-        response.headers().forEach((key, value) ->
-                exchange.getResponseHeaders().set(key, value));
-
-        byte[] responseBody = response.body() != null
-                ? response.body().readAllBytes()
-                : new byte[0];
-        boolean needsResponseBody = Method.needsResponseBody(
-                Method.from(exchange.getRequestMethod())
+        responseProcessor.write(
+                response,
+                parsedRequest.method(),
+                exchange
         );
-
-        exchange.sendResponseHeaders(
-                response.statusCode().getStatusCode(),
-                needsResponseBody ? responseBody.length : -1
-        );
-
-        if (needsResponseBody) {
-            try (OutputStream os = exchange.getResponseBody()) {
-                os.write(responseBody);
-                os.flush();
-            }
-        }
-
     }
 }

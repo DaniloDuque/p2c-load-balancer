@@ -1,6 +1,5 @@
-package org.core.processor;
+package org.core.request;
 
-import org.core.request.Request;
 import org.core.response.Response;
 
 public interface RequestProcessor {

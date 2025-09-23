@@ -36,7 +36,7 @@ public final class UpdateWorkerMetricsResponseBuilder
                     InputStream.nullInputStream()
             );
         } catch (Exception e) {
-            log.error("Failed to update worker metrics: {}", e.getMessage());
+            log.error("Failed to parse worker metrics: {}", e.getMessage());
             return errorBuilder.from(request, StatusCode.BAD_REQUEST);
         }
     }

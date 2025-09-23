@@ -6,7 +6,7 @@ import com.google.inject.Singleton;
 import lombok.NonNull;
 import org.core.parser.DefaultInputParser;
 import org.core.parser.InputParser;
-import org.core.processor.DefaultRequestProcessor;
+import org.core.request.DefaultRequestProcessor;
 import org.core.resource.DefaultResource;
 import org.core.resource.Resource;
 import org.loadbalancer.client.DefaultWorkerClient;
@@ -33,6 +33,11 @@ import org.core.handler.GenericHandler;
 import org.loadbalancer.core.ProxyResponseBuilder;
 import org.loadbalancer.core.UpdateWorkerMetricsResponseBuilder;
 import org.core.request.Method;
+import org.core.response.ResponseWriter;
+import org.core.response.DefaultResponseWriter;
+import org.core.response.GetMethodResponseWriter;
+import org.core.response.PostMethodResponseWriter;
+import org.core.response.HeadMethodResponseWriter;
 
 public final class LoadBalancerModule extends AbstractModule {
     private static final String LOAD_BALANCER_SERVER_NAME
@@ -100,10 +105,23 @@ public final class LoadBalancerModule extends AbstractModule {
 
     @Provides
     @Singleton
+    ResponseWriter provideResponseWriter() {
+        return DefaultResponseWriter.builder()
+                .responseWriters(Map.of(
+                        Method.GET, new GetMethodResponseWriter(),
+                        Method.POST, new PostMethodResponseWriter(),
+                        Method.HEAD, new HeadMethodResponseWriter()))
+                .defaultResponseWriter(new HeadMethodResponseWriter())
+                .build();
+    }
+
+    @Provides
+    @Singleton
     Config provideConfig(@NonNull final InputParser inputParser,
                          @NonNull final ErrorBuilder errorBuilder,
                          @NonNull final LBRegistry registry,
-                         @NonNull final WorkerClient workerClient) {
+                         @NonNull final WorkerClient workerClient,
+                         @NonNull final ResponseWriter responseWriter) {
         return new Config() {
             @Override
             public Map<String, HttpHandler> getServerHandlers() {
@@ -129,6 +147,7 @@ public final class LoadBalancerModule extends AbstractModule {
                                                 Method.OPTIONS, proxyBuilder))
                                         .errorBuilder(errorBuilder)
                                         .build())
+                                .responseProcessor(responseWriter)
                                 .build(),
                         "/metrics", GenericHandler.builder()
                                 .parser(inputParser)
@@ -141,6 +160,7 @@ public final class LoadBalancerModule extends AbstractModule {
                                                         .build()))
                                         .errorBuilder(errorBuilder)
                                         .build())
+                                .responseProcessor(responseWriter)
                                 .build());
             }
 

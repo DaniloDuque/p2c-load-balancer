@@ -34,11 +34,16 @@ import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.Filter;
 import org.core.Config;
 import org.core.handler.GenericHandler;
-import org.core.processor.DefaultRequestProcessor;
+import org.core.request.DefaultRequestProcessor;
 import org.core.filter.NumberOfRequestsMetricFilter;
 import org.worker.core.NQueenResponse;
 import org.core.request.Method;
 import com.google.inject.name.Named;
+import org.core.response.ResponseWriter;
+import org.core.response.DefaultResponseWriter;
+import org.core.response.GetMethodResponseWriter;
+import org.core.response.PostMethodResponseWriter;
+import org.core.response.HeadMethodResponseWriter;
 
 public final class WorkerModule extends AbstractModule {
     private static final String SERVER_NAME = "Worker-Server";
@@ -138,11 +143,24 @@ public final class WorkerModule extends AbstractModule {
 
     @Provides
     @Singleton
+    ResponseWriter provideResponseWriter() {
+        return DefaultResponseWriter.builder()
+                .responseWriters(Map.of(
+                        Method.GET, new GetMethodResponseWriter(),
+                        Method.POST, new PostMethodResponseWriter(),
+                        Method.HEAD, new HeadMethodResponseWriter()))
+                .defaultResponseWriter(new HeadMethodResponseWriter())
+                .build();
+    }
+
+    @Provides
+    @Singleton
     Config provideConfig(@NonNull final InputParser inputParser,
                          @NonNull final ErrorBuilder errorBuilder,
                          @NonNull final Solver solver,
                          @NonNull final SimpleDateFormat dateFormat,
-                         @NonNull final MetricManager metricManager) {
+                         @NonNull final MetricManager metricManager,
+                         @NonNull final ResponseWriter responseWriter) {
         return new Config() {
             @Override
             public Map<String, HttpHandler> getServerHandlers() {
@@ -160,6 +178,7 @@ public final class WorkerModule extends AbstractModule {
                                                         .build()))
                                 .errorBuilder(errorBuilder)
                                 .build())
+                        .responseProcessor(responseWriter)
                         .build());
             }
 
