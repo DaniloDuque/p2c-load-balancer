@@ -2,7 +2,7 @@ package org.core.parser;
 
 import com.sun.net.httpserver.HttpExchange;
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.core.request.Method;
 import org.core.request.Request;
@@ -10,7 +10,7 @@ import org.core.request.Request;
 import java.util.HashMap;
 import java.util.Map;
 
-@Log4j2
+@Slf4j
 public final class DefaultInputParser implements InputParser {
 
     @Override

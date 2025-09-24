@@ -1,13 +1,13 @@
 package org.loadbalancer.registry;
 
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.core.metric.MetricName;
 import org.core.metric.MetricValue;
 
 import java.util.Collection;
 
-@Log4j2
+@Slf4j
 public final class CpuUtilizationAndNumberOfRequestsScorer
         implements HostScorer {
     private static final double DEFAULT_REQUEST_COUNT = 1e10;

@@ -5,6 +5,7 @@ import com.google.inject.Provides;
 import com.google.inject.Singleton;
 import lombok.NonNull;
 import org.core.HostMetadata;
+import org.core.filter.RequestIdLogFilter;
 import org.core.metric.CpuUtilizationMetric;
 import org.core.metric.MetricManager;
 import org.core.metric.MetricName;
@@ -23,13 +24,14 @@ import org.worker.core.genetic.GeneticNQueenSolver;
 
 import java.net.http.HttpClient;
 import java.text.SimpleDateFormat;
+import java.util.Collection;
+import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 import java.util.TimeZone;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
-import java.util.Map;
-import java.util.Collection;
-import java.util.Collections;
+
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.Filter;
 import org.core.Config;
@@ -184,11 +186,19 @@ public final class WorkerModule extends AbstractModule {
 
             @Override
             public Map<String, Collection<Filter>> getServerFilters() {
-                return Map.of("/solver/queen", Collections.singletonList(
-                        NumberOfRequestsMetricFilter.builder()
-                                .metricManager(metricManager)
-                                .build()));
+                var requestIdFilter = new RequestIdLogFilter();
+                var numberOfRequestsMetricFilter
+                        = NumberOfRequestsMetricFilter.builder()
+                        .metricManager(metricManager)
+                        .build();
+                return Map.of(
+                        "/solver/queen", List.of(
+                                requestIdFilter,
+                                numberOfRequestsMetricFilter
+                        )
+                );
             }
+
         };
     }
 }

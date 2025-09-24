@@ -1,7 +1,7 @@
 package org.core.error;
 
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.core.StatusCode;
 import org.core.request.Request;
@@ -15,7 +15,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-@Log4j2
+@Slf4j
 public final class DefaultErrorBuilder implements ErrorBuilder {
     private static final String EXTENSION = ".html";
     private static final String CONNECTION_FOR_ERRORS = "close";

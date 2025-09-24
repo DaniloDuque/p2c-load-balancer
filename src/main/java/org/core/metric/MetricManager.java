@@ -2,7 +2,7 @@ package org.core.metric;
 
 import lombok.Builder;
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.worker.client.MetricClient;
 
@@ -16,7 +16,7 @@ import java.util.concurrent.ConcurrentMap;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
 
-@Log4j2
+@Slf4j
 @Builder
 public final class MetricManager {
     private final TimeUnit timeUnit;

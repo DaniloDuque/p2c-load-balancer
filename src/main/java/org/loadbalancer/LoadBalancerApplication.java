@@ -2,7 +2,7 @@ package org.loadbalancer;
 
 
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.core.Config;
 import org.core.HttpServer;
 import org.core.ServerConfig;
@@ -12,7 +12,7 @@ import org.core.resource.Resource;
 import java.io.IOException;
 import java.util.OptionalInt;
 
-@Log4j2
+@Slf4j
 public final class LoadBalancerApplication {
     private static final int ARGS_COUNT = 2;
     private static final String DEFAULT_ERRORS_PATH

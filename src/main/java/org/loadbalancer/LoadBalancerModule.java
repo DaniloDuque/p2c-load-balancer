@@ -4,6 +4,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 import com.google.inject.Singleton;
 import lombok.NonNull;
+import org.core.filter.RequestIdLogFilter;
 import org.core.parser.DefaultInputParser;
 import org.core.parser.InputParser;
 import org.core.request.DefaultRequestProcessor;
@@ -20,12 +21,13 @@ import org.core.error.DefaultErrorBuilder;
 import org.core.error.ErrorBuilder;
 
 import java.text.SimpleDateFormat;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Locale;
+import java.util.Map;
 import java.util.TimeZone;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.Map;
-import java.util.Collection;
-import java.util.HashMap;
+
 import com.sun.net.httpserver.HttpHandler;
 import com.sun.net.httpserver.Filter;
 import org.core.Config;
@@ -166,7 +168,15 @@ public final class LoadBalancerModule extends AbstractModule {
 
             @Override
             public Map<String, Collection<Filter>> getServerFilters() {
-                return new HashMap<>();
+                var requestIdFilter = new RequestIdLogFilter();
+                return Map.of(
+                        "/solver/queen", Collections.singletonList(
+                                requestIdFilter
+                        ),
+                        "/metrics", Collections.singletonList(
+                                requestIdFilter
+                        )
+                );
             }
         };
     }

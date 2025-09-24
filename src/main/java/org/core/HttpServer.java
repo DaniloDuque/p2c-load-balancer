@@ -4,7 +4,7 @@ import com.sun.net.httpserver.Filter;
 import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 
 import java.io.IOException;
 import java.net.InetSocketAddress;
@@ -14,7 +14,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-@Log4j2
+@Slf4j
 @Builder
 public final class HttpServer {
     @NonNull

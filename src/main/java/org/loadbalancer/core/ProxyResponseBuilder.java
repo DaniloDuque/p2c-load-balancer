@@ -2,7 +2,7 @@ package org.loadbalancer.core;
 
 import lombok.Builder;
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.core.StatusCode;
 import org.loadbalancer.client.WorkerClient;
@@ -12,7 +12,7 @@ import org.core.request.Request;
 import org.core.response.Response;
 import org.core.response.ResponseBuilder;
 
-@Log4j2
+@Slf4j
 @Builder
 public final class ProxyResponseBuilder implements ResponseBuilder {
     private final ErrorBuilder errorBuilder;

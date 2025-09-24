@@ -4,7 +4,8 @@ import com.sun.net.httpserver.HttpExchange;
 import com.sun.net.httpserver.HttpHandler;
 import lombok.Builder;
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+
+import lombok.extern.slf4j.Slf4j;
 import lombok.val;
 import org.core.parser.InputParser;
 import org.core.request.RequestProcessor;
@@ -12,7 +13,7 @@ import org.core.response.ResponseWriter;
 
 import java.io.IOException;
 
-@Log4j2
+@Slf4j
 @Builder
 public final class GenericHandler implements HttpHandler {
     @NonNull

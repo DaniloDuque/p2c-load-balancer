@@ -2,7 +2,7 @@ package org.loadbalancer.registry;
 
 import lombok.Builder;
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.core.HostMetadata;
 import org.core.metric.HostStatus;
 import org.core.metric.MetricValue;
@@ -10,7 +10,7 @@ import org.core.metric.MetricValue;
 import java.util.Collection;
 import java.util.concurrent.ConcurrentMap;
 
-@Log4j2
+@Slf4j
 @Builder
 public final class DefaultLBRegistry implements LBRegistry {
     private final ConcurrentMap<

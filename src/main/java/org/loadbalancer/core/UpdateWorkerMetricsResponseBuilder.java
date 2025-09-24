@@ -2,7 +2,7 @@ package org.loadbalancer.core;
 
 import lombok.Builder;
 import lombok.NonNull;
-import lombok.extern.log4j.Log4j2;
+import lombok.extern.slf4j.Slf4j;
 import org.core.StatusCode;
 import org.core.metric.HostStatus;
 import org.loadbalancer.registry.LBRegistry;
@@ -14,7 +14,7 @@ import org.core.response.ResponseBuilder;
 import java.io.InputStream;
 import java.util.Map;
 
-@Log4j2
+@Slf4j
 @Builder
 public final class UpdateWorkerMetricsResponseBuilder
         implements ResponseBuilder {
