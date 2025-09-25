@@ -2,6 +2,7 @@ plugins {
     id 'java'
     id 'checkstyle'
     id 'application'
+    id 'jacoco'
 }
 
 java {
@@ -37,7 +38,6 @@ dependencies {
     implementation 'org.slf4j:slf4j-api:2.0.9'
     implementation 'ch.qos.logback:logback-classic:1.4.11'
 
-
     implementation 'org.json:json:20250517'
 
     compileOnly 'org.projectlombok:lombok:1.18.32'
@@ -48,6 +48,8 @@ dependencies {
 
     testImplementation platform('org.junit:junit-bom:5.10.0')
     testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'org.mockito:mockito-core:5.8.0'
+    testImplementation 'org.mockito:mockito-junit-jupiter:5.8.0'
 }
 
 checkstyle {
@@ -60,4 +62,14 @@ checkstyle {
 
 test {
     useJUnitPlatform()
+    finalizedBy jacocoTestReport
+}
+
+jacocoTestReport {
+    dependsOn test
+    reports {
+        xml.required = false
+        csv.required = false
+        html.outputLocation = layout.buildDirectory.dir('jacocoHtml')
+    }
 }
